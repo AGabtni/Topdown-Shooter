@@ -93,19 +93,17 @@ public class CharacterController2D : MonoBehaviour
             if (shootTimer > 0)
                 return;
             timerActive = false;
+
+
             Transform weapon = EquipmentManager.instance.weaponInstance;
             GameObject bullet = weapon.GetComponent<ObjectPooler>().GetPooledObject();
-
             bullet.transform.position = weaponHandle.position;
-
-
             bullet.SetActive(true);
 
             Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
             bullet.GetComponent<Rigidbody2D>().AddForce(direction * EquipmentManager.instance.currentWeapon.ammoForce, ForceMode2D.Impulse);
 
             shootTimer = EquipmentManager.instance.currentWeapon.cooldown;
-
             timerActive = true;
 
         }
