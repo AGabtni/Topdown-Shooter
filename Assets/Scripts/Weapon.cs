@@ -9,8 +9,10 @@ public class Weapon : Item
 
 
     public int damageModifier;
-    
+    public int ammoForce;
+    public float cooldown;
 
+    
     public override void Equip()
     {
 
@@ -33,10 +35,8 @@ public class Weapon : Item
 
 
         base.Use();
-        //EquipmentManager.instance.TriggerWeapon();
-
-        //TODO : pool bullet
-
+        
+       
 
     }
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EquipmentManager : MonoBehaviour
 {
     #region Singleton
@@ -23,7 +24,6 @@ public class EquipmentManager : MonoBehaviour
 
     [SerializeField] Transform weaponHandle;
     [SerializeField] EquipmentSlot weaponSlot;
-    public ObjectPooler ammoPooler;
 
     // Callback for when an item is equipped/unequipped
     public delegate void OnWeaponChanged(Weapon newWeapon, Weapon oldWeapon);

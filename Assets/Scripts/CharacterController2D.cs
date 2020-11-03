@@ -9,10 +9,9 @@ public class CharacterController2D : MonoBehaviour
 {
     // Start is called before the first frame update
 
-
-    [SerializeField] private Camera cam;
-    [SerializeField] private Transform weaponHandle;
-    [SerializeField] private float movSpeed = 5f;
+    [SerializeField] Camera cam;
+    [SerializeField] Transform weaponHandle;
+    [SerializeField] float movSpeed = 5f;
     Rigidbody2D body;
     Animator animController;
     bool isFacingRight = true;
@@ -27,10 +26,11 @@ public class CharacterController2D : MonoBehaviour
 
     Vector2 movement;
     Vector2 mousePos;
-    float relativeMouseX;
+    public float relativeMouseX;
     float relativeMouseY;
 
-
+    float shootTimer = 0f;
+    bool timerActive;
 
     void Update()
     {
@@ -45,6 +45,7 @@ public class CharacterController2D : MonoBehaviour
 
 
 
+
         if ((relativeMouseX > 0) && !isFacingRight)
         {
             Flip();
@@ -54,6 +55,12 @@ public class CharacterController2D : MonoBehaviour
             Flip();
         }
 
+        if (timerActive)
+            shootTimer -= Time.deltaTime;  
+        if (shootTimer < 0)
+            shootTimer = 0;
+        if (Input.GetButtonDown("Fire1"))
+            Shoot();
     }
 
 
@@ -67,7 +74,7 @@ public class CharacterController2D : MonoBehaviour
         //transform.rotation 
         animController.SetFloat("Horizontal", relativeMouseX);
         animController.SetFloat("Vertical", relativeMouseY);
-        animController.SetFloat("Speed", new Vector2(relativeMouseX, relativeMouseY).sqrMagnitude);
+        animController.SetFloat("Speed", movement.sqrMagnitude);
         if (EquipmentManager.instance.weaponInstance != null)
         {
             RotateWeapon();
@@ -77,11 +84,39 @@ public class CharacterController2D : MonoBehaviour
 
     }
 
+    void Shoot()
+    {
+
+
+        if (EquipmentManager.instance.weaponInstance != null)
+        {
+            if (shootTimer > 0)
+                return;
+            timerActive = false;
+            Transform weapon = EquipmentManager.instance.weaponInstance;
+            GameObject bullet = weapon.GetComponent<ObjectPooler>().GetPooledObject();
+
+            bullet.transform.position = weaponHandle.position;
+
+
+            bullet.SetActive(true);
+
+            Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
+            bullet.GetComponent<Rigidbody2D>().AddForce(direction * EquipmentManager.instance.currentWeapon.ammoForce, ForceMode2D.Impulse);
+
+            shootTimer = EquipmentManager.instance.currentWeapon.cooldown;
+
+            timerActive = true;
+
+        }
+
+
+    }
     void RotateWeapon()
     {
         Vector2 newPosition = new Vector2(isFacingRight ? relativeMouseX : -relativeMouseX, relativeMouseY);
-        newPosition.x /= 2;
-        newPosition.y /= 2;
+        newPosition.x /= 1.5f;
+        newPosition.y /= 1.5f;
         weaponHandle.localPosition = newPosition;
 
         Animator weaponAnimator = EquipmentManager.instance.weaponInstance.GetComponent<Animator>();
