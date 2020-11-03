@@ -73,3 +73,4 @@ crashlytics-build.properties
 #CUSTOM DIRECTORIES 
 
 /[Aa]ssets/Artwork/Packages
+/AstarPathfindingProject/ExampleScenes

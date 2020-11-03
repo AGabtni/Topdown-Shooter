@@ -39,6 +39,7 @@ public class CharacterController2D : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector2 characterDirection = mousePos - body.position;
         float relativeAngle = Mathf.Atan2(characterDirection.y, characterDirection.x) * Mathf.Rad2Deg;
+        relativeAngle = Snapping.Snap(relativeAngle,45f);
         relativeMouseX = Mathf.Cos(relativeAngle * Mathf.Deg2Rad);
         relativeMouseY = Mathf.Sin(relativeAngle * Mathf.Deg2Rad);
 

@@ -23,3 +23,9 @@ Asset creators :
 
 -   https://finalbossblues.itch.io/pixel-shooter-towers-asset-pack
 -   https://pixel-poem.itch.io/dungeon-assetpuck
+
+Exernal packages : 
+
+Pathfinding package : 
+
+- https://arongranberg.com/astar/download
