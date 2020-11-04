@@ -13,11 +13,13 @@ public class EnemyBehaviour : MonoBehaviour
 
 
     [SerializeField] Transform enemyGFX;
-    public UnityEvent OnDeath;
     public Transform deathSFX;
+
     protected bool isDead = false;
     protected Animator enemyAnim;
     protected AstarAgent aIAgent;
+    protected Health health;
+    [HideInInspector] public UnityEvent OnDeath;
 
     void Awake()
     {
@@ -25,8 +27,9 @@ public class EnemyBehaviour : MonoBehaviour
         if (OnDeath == null)
             OnDeath = new UnityEvent();
 
+        aIAgent = GetComponent<AstarAgent>();
         enemyAnim = enemyGFX.GetComponent<Animator>();
-
+        health = GetComponent<Health>();
     }
 
 
@@ -51,6 +54,8 @@ public class EnemyBehaviour : MonoBehaviour
     void OnEnable()
     {
         isDead = false;
+        health.RestoreHealth();
+        health.OnHealtedChange.Invoke();
     }
 
 }

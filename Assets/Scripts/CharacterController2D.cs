@@ -4,6 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Health))]
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] Camera cam;
     [SerializeField] Transform weaponHandle;
     [SerializeField] float movSpeed = 5f;
+    Health health;
     Rigidbody2D body;
     Animator animController;
     bool isFacingRight = true;
@@ -21,6 +23,7 @@ public class CharacterController2D : MonoBehaviour
 
         body = GetComponent<Rigidbody2D>();
         animController = GetComponent<Animator>();
+        health = GetComponent<Health>();
     }
 
 

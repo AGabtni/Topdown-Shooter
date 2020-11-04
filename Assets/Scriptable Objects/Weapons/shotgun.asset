@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39ae1fae1a75b93479cca6c8d09e468a, type: 3}
-  m_Name: laser
+  m_Name: shotgun
   m_EditorClassIdentifier: 
   category: 0
-  itemName: laser
-  defaulSprite: {fileID: 21300000, guid: 24c806beda4ce5f46a17206f0bff1b1c, type: 3}
+  itemName: shotgun
+  defaulSprite: {fileID: 21300000, guid: ad927fedc422f754d935cd88288902be, type: 3}
   itemPrefab: {fileID: 0}
   damageModifier: 0
+  ammoForce: 0
+  cooldown: 0

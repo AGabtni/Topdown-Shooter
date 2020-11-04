@@ -8,9 +8,9 @@ using Pathfinding.Util;
 [RequireComponent(typeof(Seeker))]
 public class AstarAgent : MonoBehaviour
 {
-
+    [SerializeField] Enemy enemy;
     public Transform target;
-    [SerializeField] float speed = 200f;
+    float speed;
     Seeker seeker;
     Rigidbody2D body;
 
@@ -30,18 +30,19 @@ public class AstarAgent : MonoBehaviour
         get { return _hasReachEndOfPath; }
     }
     Vector2 _velocity;
-    public Vector2 velocity{
+    public Vector2 velocity
+    {
 
-        get{return _velocity;}
+        get { return _velocity; }
     }
 
-    [SerializeField] float distanceBeforeStop = 0.02f;
+    float distanceBeforeStop;
     public bool reachedDestination
     {
         get
         {
 
-            if (!reachedEndOfPath ) return false;
+            if (!reachedEndOfPath) return false;
             // Note: distanceToSteeringTarget is the distance to the end of the path when approachingPathEndpoint is true
 
             // Check against using a very small margin . Margin should be changed when changing target's or this object's collider .
@@ -56,12 +57,10 @@ public class AstarAgent : MonoBehaviour
 
         seeker = GetComponent<Seeker>();
         body = GetComponent<Rigidbody2D>();
-
+        speed = enemy.speed;
+        distanceBeforeStop = enemy.distanceBeforeAttack;
 
     }
-
-
-
 
 
     float pathLength;
@@ -145,22 +144,22 @@ public class AstarAgent : MonoBehaviour
 
         body.AddForce(_velocity);
 
-    
+
 
     }
 
-    void FixedUpdate()
+
+    //TODO : finish writing this function. Check Patrol.cs in A* package.
+    void SwitchTarget(Transform newTarget)
     {
 
-
-
     }
-
 
     void OnEnable()
     {
         _hasReachEndOfPath = false;
         path = null;
+
     }
 
-}   
+}

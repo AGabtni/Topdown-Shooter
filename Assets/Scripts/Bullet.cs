@@ -17,25 +17,23 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-
+        //TODO  : make it character agnostic 
         if (col.gameObject.layer == LayerMask.NameToLayer("Item") || col.gameObject.layer == LayerMask.NameToLayer("Player"))
             return;
 
-
-        //TODO  : check for health script on collided obj
-        //if ()
-        //{
-        //    int damage = EquipmentManager.instance.currentWeapon.damageModifier;
-        //    //TODO : adjust player health
-        //
-        //
-        //}
+        Health health = col.GetComponent<Health>();
+        if (health)
+        {
+            int damage = EquipmentManager.instance.currentWeapon.damageModifier;
+            health.ChangeHealth(-damage);
+            health.OnHealtedChange.Invoke();
+        }
         Debug.Log("BULLET HIT : " + col.gameObject.name);
 
 
         GameObject effect = effectPooler.GetPooledObject();
         effect.transform.position = transform.position;
-        effect.gameObject.SetActive(true); 
+        effect.gameObject.SetActive(true);
         effect.GetComponent<DesactivateObject>().Desactivate(.25f);
         gameObject.SetActive(false);
 

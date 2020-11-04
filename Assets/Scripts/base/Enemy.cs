@@ -6,12 +6,8 @@ using UnityEngine;
 
 public class Enemy : ScriptableObject
 {
-
-    public Transform target;
-    public float Speed;
+    public float speed;
     public float distanceBeforeAttack;
-
-    
 
 
 

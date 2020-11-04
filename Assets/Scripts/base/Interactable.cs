@@ -29,12 +29,6 @@ public class Interactable : MonoBehaviour
         //TODO : activate outline shader material when player is within
         // interaction radius
     }
-    void OnDrawGizmosSelected()
-    {
-
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, interactionRadius);
-    }
     void OnTriggerEnter2D(Collider2D col)
     {
 
