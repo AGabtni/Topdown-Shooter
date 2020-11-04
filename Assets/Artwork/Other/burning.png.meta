@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: a892111e7771d8c46aa8474ffc40caa1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6669560127030847859
+    second: burning_0
+  - first:
+      213: -5222763530674796465
+    second: burning_1
+  - first:
+      213: 4364624556468853333
+    second: burning_2
+  - first:
+      213: 6791081909444845330
+    second: burning_3
+  - first:
+      213: 5854989404983136428
+    second: burning_4
+  - first:
+      213: 1164574661702517774
+    second: burning_5
+  - first:
+      213: 5722576421552107350
+    second: burning_6
+  - first:
+      213: -2566098792391155838
+    second: burning_7
+  - first:
+      213: 8904704257300703282
+    second: burning_0
+  - first:
+      213: 2968683030431561199
+    second: burning_1
+  - first:
+      213: 7611608892515482011
+    second: burning_2
+  - first:
+      213: -1872070917941573816
+    second: burning_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -123,7 +159,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: burning_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2382156c75dd39b70800000000000000
+      internalID: 8904704257300703282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe57a97cc71e23920800000000000000
+      internalID: 2968683030431561199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99f69fa5fdd1a960800000000000000
+      internalID: 7611608892515482011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c0c53b611506e0800000000000000
+      internalID: -1872070917941573816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -29,7 +29,9 @@ public class CharacterController2D : MonoBehaviour
 
     Vector2 movement;
     Vector2 mousePos;
-    public float relativeMouseX;
+
+    float relativeAngle;
+    float relativeMouseX;
     float relativeMouseY;
 
     float shootTimer = 0f;
@@ -41,8 +43,8 @@ public class CharacterController2D : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector2 characterDirection = mousePos - body.position;
-        float relativeAngle = Mathf.Atan2(characterDirection.y, characterDirection.x) * Mathf.Rad2Deg;
-        relativeAngle = Snapping.Snap(relativeAngle,45f);
+        relativeAngle = Mathf.Atan2(characterDirection.y, characterDirection.x) * Mathf.Rad2Deg;
+        relativeAngle = Snapping.Snap(relativeAngle, 45f);
         relativeMouseX = Mathf.Cos(relativeAngle * Mathf.Deg2Rad);
         relativeMouseY = Mathf.Sin(relativeAngle * Mathf.Deg2Rad);
 
@@ -60,7 +62,7 @@ public class CharacterController2D : MonoBehaviour
         }
 
         if (timerActive)
-            shootTimer -= Time.deltaTime;  
+            shootTimer -= Time.deltaTime;
         if (shootTimer < 0)
             shootTimer = 0;
         if (Input.GetButtonDown("Fire1"))
@@ -101,10 +103,17 @@ public class CharacterController2D : MonoBehaviour
 
             Transform weapon = EquipmentManager.instance.weaponInstance;
             GameObject bullet = weapon.GetComponent<ObjectPooler>().GetPooledObject();
-            bullet.transform.position = weaponHandle.position;
+            
+            Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
+            bullet.transform.position = (Vector2)weaponHandle.position + direction;
+
+            //Rotate bullet to face direction
+            Vector3 rotation = bullet.transform.rotation.eulerAngles;
+            rotation.z = relativeAngle;
+            bullet.transform.rotation = Quaternion.Euler(rotation);
             bullet.SetActive(true);
 
-            Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
+            //Add force to bullet
             bullet.GetComponent<Rigidbody2D>().AddForce(direction * EquipmentManager.instance.currentWeapon.ammoForce, ForceMode2D.Impulse);
 
             shootTimer = EquipmentManager.instance.currentWeapon.cooldown;
@@ -120,6 +129,7 @@ public class CharacterController2D : MonoBehaviour
         newPosition.x /= 1.5f;
         newPosition.y /= 1.5f;
         weaponHandle.localPosition = newPosition;
+
 
         Animator weaponAnimator = EquipmentManager.instance.weaponInstance.GetComponent<Animator>();
         weaponAnimator.SetFloat("Horizontal", relativeMouseX);
