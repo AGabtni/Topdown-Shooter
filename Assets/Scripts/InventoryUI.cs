@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
 
-        slots = FindObjectsOfType<InventorySlot>();
+        slots = inventoryPanel.GetComponentsInChildren<InventorySlot>();
         inventoryPanel.SetActive(false);
 
         if (onItemUpdate == null)

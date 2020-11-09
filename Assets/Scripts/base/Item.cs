@@ -3,19 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-    public enum Category
-    {
-        Weapon, 
-        Consumable,
-        Equipment,
-        Ammo
-    }
 
 public class Item : ScriptableObject
 {
 
-    public Category category;
-    public string itemName;
+    //public string itemName;
     public Sprite defaulSprite;
     public Transform itemPrefab ;
 

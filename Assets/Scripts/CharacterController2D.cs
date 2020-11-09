@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Health))]
-
 public class CharacterController2D : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    [SerializeField] Transform characterGFX;
     [SerializeField] Camera cam;
     [SerializeField] Transform weaponHandle;
     [SerializeField] float movSpeed = 5f;
+
+    [Tooltip("Layer masks of gameobjects that will be ignored when an attack collides with them")]
+    [SerializeField] LayerMask ignoreMask;
+    [SerializeField] LayerMask targetMask;
     Health health;
     Rigidbody2D body;
     Animator animController;
@@ -22,7 +25,7 @@ public class CharacterController2D : MonoBehaviour
 
 
         body = GetComponent<Rigidbody2D>();
-        animController = GetComponent<Animator>();
+        animController = characterGFX.GetComponent<Animator>();
         health = GetComponent<Health>();
     }
 
@@ -39,6 +42,12 @@ public class CharacterController2D : MonoBehaviour
 
     void Update()
     {
+
+        if (!health.IsAlive())
+            return;
+
+
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -103,7 +112,7 @@ public class CharacterController2D : MonoBehaviour
 
             Transform weapon = EquipmentManager.instance.weaponInstance;
             GameObject bullet = weapon.GetComponent<ObjectPooler>().GetPooledObject();
-            
+            bullet.GetComponent<Bullet>().SetupBullet(ignoreMask, targetMask, EquipmentManager.instance.currentWeapon.damageModifier);
             Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
             bullet.transform.position = (Vector2)weaponHandle.position + direction;
 
@@ -138,13 +147,13 @@ public class CharacterController2D : MonoBehaviour
 
         if (relativeMouseY < 0)
         {
-            EquipmentManager.instance.weaponInstance.GetComponent<SpriteRenderer>().sortingOrder = 1;
-            GetComponent<SpriteRenderer>().sortingOrder = 0;
+            EquipmentManager.instance.weaponInstance.GetComponent<SpriteRenderer>().sortingOrder = 2;
+            characterGFX.GetComponent<SpriteRenderer>().sortingOrder = 1;
         }
         else
         {
-            EquipmentManager.instance.weaponInstance.GetComponent<SpriteRenderer>().sortingOrder = 0;
-            GetComponent<SpriteRenderer>().sortingOrder = 1;
+            EquipmentManager.instance.weaponInstance.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            characterGFX.GetComponent<SpriteRenderer>().sortingOrder = 2;
         }
 
 

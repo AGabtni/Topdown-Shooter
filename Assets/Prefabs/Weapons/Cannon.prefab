@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2315211378796899080}
   - component: {fileID: 2424208495514147441}
   - component: {fileID: 8666051476835812357}
+  - component: {fileID: -5303986940075585578}
   m_Layer: 9
   m_Name: Cannon
   m_TagString: Untagged
@@ -145,6 +146,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjectPrefab: {fileID: 7659151297128513217, guid: d3de69ca2b26a9e4c9e373df7be64901, type: 3}
   pooledAmount: 0
+--- !u!114 &-5303986940075585578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315211378796899085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490c0b89472a2fa42bb9a79f724ef8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRadius: 1
+  interactiveAgents:
+    serializedVersion: 2
+    m_Bits: 256
+  item: {fileID: 11400000, guid: fb30a9a3b061c854d810aa728e9cc761, type: 2}
 --- !u!1 &3864160866855485161
 GameObject:
   m_ObjectHideFlags: 0

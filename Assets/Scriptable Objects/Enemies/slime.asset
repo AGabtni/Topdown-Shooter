@@ -15,4 +15,4 @@ MonoBehaviour:
   speed: 200
   distanceBeforeAttack: 1.5
   explosionDamage: 20
-  explosionRadius: 1.25
+  explosionRadius: 1.65

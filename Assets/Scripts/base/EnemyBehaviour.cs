@@ -13,7 +13,8 @@ public class EnemyBehaviour : MonoBehaviour
 
 
     [SerializeField] Transform enemyGFX;
-    public Transform deathSFX;
+
+    [SerializeField] protected ObjectPooler effectPooler;
 
     protected bool isDead = false;
     protected Animator enemyAnim;

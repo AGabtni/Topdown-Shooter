@@ -93,6 +93,8 @@ public class AstarAgent : MonoBehaviour
 
     void Update()
     {
+        if (target == null)
+            return;
         //Save last time AI generated new path after repathting and request new path
         if (Time.time > lastRepath + repathRate && seeker.IsDone())
         {

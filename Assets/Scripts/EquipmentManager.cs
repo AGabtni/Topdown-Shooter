@@ -62,8 +62,10 @@ public class EquipmentManager : MonoBehaviour
         weaponInstance = Instantiate(currentWeapon.itemPrefab) as Transform;
         weaponInstance.SetParent(weaponHandle);
         weaponInstance.localPosition = Vector3.zero;
+        weaponInstance.localScale = Vector3.one;
         //Remove weapons pickup component
-        //GameObject.Destroy(weaponInstance.GetComponent<ItemPickup>());
+        if (weaponInstance.GetComponent<InteractableWeapon>())
+            GameObject.Destroy(weaponInstance.GetComponent<InteractableWeapon>());
 
 
         weaponSlot.AddItem(currentWeapon);
@@ -109,5 +111,9 @@ public class EquipmentManager : MonoBehaviour
 
     }
 
+    public bool IsWeaponEquipped(){
+
+        return currentWeapon != null ? true : false;
+    }
 
 }

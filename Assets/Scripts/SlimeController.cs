@@ -27,9 +27,11 @@ public class SlimeController : EnemyBehaviour
         if (isDead)
             return;
 
-        UpdateGFX();
         if (aIAgent.reachedDestination || !health.IsAlive())
             OnDeath.Invoke();
+            
+        UpdateGFX();
+
     }
 
 
@@ -48,7 +50,11 @@ public class SlimeController : EnemyBehaviour
     IEnumerator CastExplosion()
     {
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.9f);
+        GameObject deathEffect = effectPooler.GetPooledObject();
+        deathEffect.transform.position = transform.position;
+        deathEffect.SetActive(true);
+        deathEffect.GetComponent<DesactivateObject>().Desactivate(.45f);
 
         RaycastHit2D[] explosionHits = Physics2D.CircleCastAll(transform.position, enemy.explosionRadius, Vector2.up, enemy.explosionRadius, targetsMask);
         foreach (RaycastHit2D hit in explosionHits)

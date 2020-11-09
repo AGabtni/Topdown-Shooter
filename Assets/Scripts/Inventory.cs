@@ -35,19 +35,26 @@ public sealed class Inventory : MonoBehaviour
             return false;
         }
 
-        if (itemsList.Count == 0)
+        if (itemsList.Count == 0 && !EquipmentManager.instance.IsWeaponEquipped() )
+        {
             item.Equip();
+            return true;
+        }
 
         itemsList.Add(item);
         if (inventoryUI.onItemUpdate != null)
             inventoryUI.onItemUpdate.Invoke();
+
+
         return true;
     }
 
     public void RemoveItem(Item item)
     {
         itemsList.Remove(item);
-        inventoryUI.onItemUpdate.Invoke();
+
+        if (inventoryUI.onItemUpdate != null)
+            inventoryUI.onItemUpdate.Invoke();
     }
 
 

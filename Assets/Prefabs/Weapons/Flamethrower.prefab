@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2410062795134505360}
   - component: {fileID: 2375525538142609641}
   - component: {fileID: 8723741631356698269}
+  - component: {fileID: 4149547567415361237}
   m_Layer: 9
   m_Name: Flamethrower
   m_TagString: Untagged
@@ -145,6 +146,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjectPrefab: {fileID: 3882716054713513346, guid: f759557983ad82c4bb4da39933c0297a, type: 3}
   pooledAmount: 0
+--- !u!114 &4149547567415361237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410062795134505365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490c0b89472a2fa42bb9a79f724ef8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRadius: 1
+  interactiveAgents:
+    serializedVersion: 2
+    m_Bits: 256
+  item: {fileID: 11400000, guid: ba01dba585a1bf149a96e161ff1c2ed1, type: 2}
 --- !u!1 &3815475745248232561
 GameObject:
   m_ObjectHideFlags: 0

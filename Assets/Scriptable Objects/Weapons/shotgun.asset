@@ -15,7 +15,7 @@ MonoBehaviour:
   category: 0
   itemName: shotgun
   defaulSprite: {fileID: 21300000, guid: ad927fedc422f754d935cd88288902be, type: 3}
-  itemPrefab: {fileID: 0}
-  damageModifier: 0
-  ammoForce: 0
-  cooldown: 0
+  itemPrefab: {fileID: 7268107227008359019, guid: 8f0e692cb5488f448852605cb8ec470e, type: 3}
+  damageModifier: 10
+  ammoForce: 13
+  cooldown: 0.5

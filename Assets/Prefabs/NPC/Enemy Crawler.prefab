@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3842435471974586661}
   - component: {fileID: 2728317919513486106}
   - component: {fileID: 7459190520296185189}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 5953902237438797345}
   - component: {fileID: 717801627412342462}
   - component: {fileID: 4286966448402003045}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 8940840753103723376}
   - component: {fileID: 154705948111366115}
   - component: {fileID: 2621906379029147858}
-  m_Layer: 5
+  m_Layer: 13
   m_Name: Health FIll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 6815751336775098353}
   - component: {fileID: 6815751336775098352}
   - component: {fileID: 6815751336775098359}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4763500551806274973, guid: 321cbf90e2316524c82ae6254534210d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -367,7 +367,8 @@ GameObject:
   - component: {fileID: 6815751337141088174}
   - component: {fileID: 6815751337141088168}
   - component: {fileID: 8972370269448920081}
-  m_Layer: 12
+  - component: {fileID: 3527556089238324406}
+  m_Layer: 13
   m_Name: Enemy Crawler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyGFX: {fileID: 6815751336775098353}
-  deathSFX: {fileID: 0}
+  effectPooler: {fileID: 3527556089238324406}
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -510,3 +511,17 @@ MonoBehaviour:
   OnHealtedChange:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3527556089238324406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815751337141088178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74ab8c1432e58d41872b70f9f78b2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjectPrefab: {fileID: 7101624703312891807, guid: 6db798980e67ce3439ec08e5203e06b3, type: 3}
+  pooledAmount: 0

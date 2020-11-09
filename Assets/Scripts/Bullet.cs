@@ -8,28 +8,39 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] ObjectPooler effectPooler;
+    LayerMask targetMasks;
+    LayerMask ignoreMasks;
+    int damage;
+
     // Update is called once per frame
-    void Update()
+    public void SetupBullet(LayerMask ignoreMasks, LayerMask targetMasks, int damage)
     {
+
+        this.targetMasks = targetMasks;
+        this.ignoreMasks = ignoreMasks;
+        this.damage = damage;
 
     }
 
+    protected bool IsPartOfMasks(LayerMask mask, LayerMask masks)
+    {
+        return masks == (masks | (1 << mask));
 
+    }
     void OnTriggerEnter2D(Collider2D col)
     {
-        //TODO  : make it character agnostic 
-        if (col.gameObject.layer == LayerMask.NameToLayer("Item") || col.gameObject.layer == LayerMask.NameToLayer("Player"))
+        if (IsPartOfMasks(col.gameObject.layer, ignoreMasks))
             return;
 
-        Health health = col.GetComponent<Health>();
-        if (health)
+        if (IsPartOfMasks(col.gameObject.layer, targetMasks))
         {
-            int damage = EquipmentManager.instance.currentWeapon.damageModifier;
-            health.ChangeHealth(-damage);
-            health.OnHealtedChange.Invoke();
+            Health health = col.GetComponent<Health>();
+            if (health)
+            {
+                health.ChangeHealth(-damage);
+                health.OnHealtedChange.Invoke();
+            }
         }
-        Debug.Log("BULLET HIT : " + col.gameObject.name);
-
 
         GameObject effect = effectPooler.GetPooledObject();
         effect.transform.position = transform.position;
