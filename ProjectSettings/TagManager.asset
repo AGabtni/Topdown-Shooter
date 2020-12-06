@@ -19,9 +19,9 @@ TagManager:
   - Floor
   - NPC
   - Enemy
-  - 
-  - 
-  - 
+  - NoAttackCollision
+  - AI obstacle
+  - HighGround
   - 
   - 
   - 

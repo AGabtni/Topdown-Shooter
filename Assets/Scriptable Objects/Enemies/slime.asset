@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606b1a6a3bd689149a2c8f564942f646, type: 3}
   m_Name: slime
   m_EditorClassIdentifier: 
-  speed: 200
-  distanceBeforeAttack: 1.5
+  normalSpeed: 3
+  chasingSpeed: 4
+  distanceBeforeAttack: 0.25
   explosionDamage: 20
   explosionRadius: 1.65
