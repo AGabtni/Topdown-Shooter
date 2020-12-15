@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 
@@ -8,75 +9,149 @@ using UnityEngine;
 public class TowerController : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] TowerEvolutions lastEvolution = TowerEvolutions.Evolution1;
+
     [SerializeField] GameObject towerGFX;
-    [SerializeField] Tower tower;
+    [SerializeField] Tower[] towersSettings;
+
+
     [SerializeField] ObjectPooler bulletPooler;
     [SerializeField] Transform firePoint;
 
     [Tooltip("Layer masks of gameobjects that will be ignored when an attack collides with them")]
     [SerializeField] LayerMask ignoreMask;
-    [SerializeField] LayerMask targetMask;
     [SerializeField] ParticleSystem deathPS;
+    TowerEvolutions currentEvolution;
+    private MaterialModifier modifier;
+    private Tower currentSettings;
+    private Health health;
+    private Animator towerAnimator;
 
+    private bool isDead;
+    private bool timerActive;
 
-    Health health;
-    Animator towerAnimator;
-    float targetAngle;
-    float targetX;
-    float targetY;
-    float shootTimer = 0f;
-    bool timerActive;
+    private float targetAngle;
+    private float targetX;
+    private float targetY;
+    private float shootTimer = 0f;
+
     void Start()
     {
         health = GetComponent<Health>();
         towerAnimator = towerGFX.GetComponent<Animator>();
+        modifier = GetComponentInChildren<MaterialModifier>();
+
+        currentEvolution = TowerEvolutions.Evolution1;
+        currentSettings = GetTowerSettings(currentEvolution);
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (!health.IsAlive()) { StartCoroutine(OnDeath()); return; }
-
-
-
-        Transform target = DetectTarget();
-        if (target)
+        if (!health.IsAlive())
         {
-            Vector2 direction = target.position - transform.position;
-            targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            targetAngle = Snapping.Snap(targetAngle, 45f);
-            targetX = Mathf.Cos(targetAngle * Mathf.Deg2Rad);
-            targetY = Mathf.Sin(targetAngle * Mathf.Deg2Rad);
-            if (timerActive)
-                shootTimer -= Time.deltaTime;
-            if (shootTimer < 0)
-                shootTimer = 0;
-            Shoot();
+            if (currentEvolution == lastEvolution)
+            {
+                StartCoroutine(OnDeath());
+            }
+            else
+            {
+                switch (currentEvolution)
+                {
+                    case TowerEvolutions.Evolution1:
+                        StartCoroutine(EvolveTower(TowerEvolutions.Evolution2));
+                        break;
+                    case TowerEvolutions.Evolution2:
+                        StartCoroutine(EvolveTower(TowerEvolutions.Evolution3));
+                        break;
+                }
+            }
+
+        }
+        else
+        {
+            Transform target = CheckTarget();
+            if (target)
+            {
+                Vector2 direction = target.position - transform.position;
+                targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                targetAngle = Snapping.Snap(targetAngle, 45f);
+                targetX = Mathf.Cos(targetAngle * Mathf.Deg2Rad);
+                targetY = Mathf.Sin(targetAngle * Mathf.Deg2Rad);
+                if (timerActive)
+                    shootTimer -= Time.deltaTime;
+                if (shootTimer < 0)
+                    shootTimer = 0;
+                Shoot();
+            }
         }
 
 
 
-    }
 
+
+
+
+    }
     void LateUpdate()
     {
-
 
         towerAnimator.SetFloat("Horizontal", targetX);
         towerAnimator.SetFloat("Vertical", targetY);
 
     }
 
-
-    Transform DetectTarget()
+    IEnumerator EvolveTower(TowerEvolutions nextEvolution)
     {
+        if (currentEvolution == nextEvolution)
+            yield break;
 
-        RaycastHit2D explosionHit = Physics2D.CircleCast(transform.position, tower.shootRadius, Vector2.up, tower.shootRadius, tower.targetMask);
-        return explosionHit ? explosionHit.transform : null;
+        currentEvolution = nextEvolution;
+        currentSettings = GetTowerSettings(nextEvolution);
+        health.RestoreHealth();
+        modifier.SetTintColor(new Color(1, 1, 0, 1f), 0.75f);
+
+        yield return new WaitForSeconds(0.75f);
+
+        switch (nextEvolution)
+        {
+            case TowerEvolutions.Evolution2:
+                towerAnimator.SetBool("EvolvedTo2", true);
+                break;
+            case TowerEvolutions.Evolution3:
+                towerAnimator.SetBool("EvolvedTo3", true);
+                break;
+
+        }
+
+
+    }
+    Tower GetTowerSettings(TowerEvolutions evolution)
+    {
+        foreach (var settings in towersSettings)
+        {
+            if (settings.evolution == evolution)
+                return settings;
+        }
+        return null;
     }
 
 
+    Transform CheckTarget()
+    {
+
+        RaycastHit2D explosionHit = Physics2D.CircleCast(transform.position,
+                                                        currentSettings.shootRadius,
+                                                        Vector2.up,
+                                                        currentSettings.shootRadius,
+                                                        currentSettings.targetMask);
+        return explosionHit ? explosionHit.transform : null;
+    }
+
+    //innstantiante bullet and gives it force
     void Shoot()
     {
         if (shootTimer > 0)
@@ -91,7 +166,7 @@ public class TowerController : MonoBehaviour
 
         //Instantiate and set bullet
         GameObject bullet = bulletPooler.GetPooledObject();
-        bullet.GetComponent<Bullet>().SetupBullet(ignoreMask, targetMask, tower.damageModifier);
+        bullet.GetComponent<Bullet>().SetupBullet(ignoreMask, currentSettings.targetMask, currentSettings.damageModifier);
 
         //Change bullet direction and rotation
         bullet.transform.position = firePoint.position;
@@ -99,29 +174,43 @@ public class TowerController : MonoBehaviour
         bullet.SetActive(true);
 
         //Add force to bullet
-        bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.right * tower.ammoForce, ForceMode2D.Impulse);
+        bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.right * currentSettings.ammoForce, ForceMode2D.Impulse);
 
-        shootTimer = tower.cooldown;
+        shootTimer = currentSettings.cooldown;
         timerActive = true;
 
     }
 
+    //Called when health drops down to 0
     IEnumerator OnDeath()
     {
         if (isDead) yield break;
         isDead = true;
+        StartCoroutine(TiltColor());
         ParticleSystem deathSFX = Instantiate(deathPS);
         deathSFX.transform.position = transform.position;
+
         yield return new WaitForSeconds(deathSFX.main.duration);
         Destroy(deathSFX.gameObject);
 
+        GameManager.Instance.OnMobKilled.Invoke(EnemyType.Tower);
         gameObject.SetActive(false);
     }
+    //Tilts material color each 0.2s
+    IEnumerator TiltColor()
+    {
+        while (true)
+        {
 
-    bool isDead;
+            modifier.SetTintColor(new Color(1, 1, 1, 1f), 4f);
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
     void OnEnable()
     {
 
         isDead = false;
     }
+
+
 }

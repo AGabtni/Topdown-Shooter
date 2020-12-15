@@ -1,17 +1,16 @@
 # UNITY 2D top down shooter
 
 
-A game using royalty free pixelart assets from itch.io
+A 2D top-down pixel shooter game with pixelart assets from itch.io .
 
 
-## DevLog :
-Changes and gameplay to implement (NOT IN ORDER): 
+## What's next to implement :
+Changes and gameplay to implement: 
 
--    Health system (For character and NPC)
--    AI system for NPC
--    Create more weapon and bullets prefabs
--    Bullets instantiating and shooting
--    Home UI 
+-    Lobby UI
+-    More tile maps
+-    New levels
+-    Audio assets and manager
 
 
 
@@ -23,9 +22,10 @@ Asset creators :
 
 -   https://finalbossblues.itch.io/pixel-shooter-towers-asset-pack
 -   https://pixel-poem.itch.io/dungeon-assetpuck
+-   https://mounirtohami.itch.io/pixel-art-gui-elements
 
 Exernal packages : 
 
-Pathfinding package : 
+A* pathfinding package : 
 
 - https://arongranberg.com/astar/download

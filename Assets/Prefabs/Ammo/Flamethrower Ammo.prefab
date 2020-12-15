@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7858719228698251794}
   - component: {fileID: 3882716054713513357}
   - component: {fileID: 4613701936608177762}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Flamethrower Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -6,16 +6,30 @@ using UnityEngine.Tilemaps;
 [RequireComponent(typeof(ObjectPooler))]
 public class MobSpawner : MonoBehaviour
 {
+    [Tooltip("Slime scriptable for chaser type")]
+    [SerializeField] Slime chaserSettings;
+
+    [Tooltip("Slime scriptable for patroller type")]
+    [SerializeField] Slime patrollerSettings;
+
 
     [Tooltip("Map of tiles where mobs can spawn on")]
     [SerializeField] Tilemap targetMap;
-
     ObjectPooler mobPooler;
 
     List<Vector3> tilemapLocations = new List<Vector3>();
 
+    int _spawnedChasers = 0;
+    int _spawnedPatrollers = 0;
 
-
+    public int SpawnedChasers
+    {
+        get { return _spawnedChasers; }
+    }
+    public int SpawnedPatrollers
+    {
+        get { return _spawnedPatrollers; }
+    }
     void Start()
     {
 
@@ -40,16 +54,37 @@ public class MobSpawner : MonoBehaviour
     }
 
 
-  
-    public void SpawnMob()
-    {
 
+    public bool SpawnChaser(int limit)
+    {
+        if (_spawnedChasers == limit)
+            return false;
         GameObject mob = mobPooler.GetPooledObject();
         mob.GetComponent<SlimeController>().patrolPoints = GetTilesLocations(3);
-
+        mob.GetComponent<SlimeController>().enemySettings = chaserSettings;
         Vector2 randomPosition = tilemapLocations[Random.Range(0, tilemapLocations.Count)];
         mob.transform.position = randomPosition;
         mob.SetActive(true);
+        _spawnedChasers++;
+
+        return true;
+
+
+    }
+    public bool SpawnPatroller(int limit)
+    {
+
+        if (_spawnedPatrollers == limit)
+            return false;
+
+        GameObject mob = mobPooler.GetPooledObject();
+        mob.GetComponent<SlimeController>().patrolPoints = GetTilesLocations(3);
+        mob.GetComponent<SlimeController>().enemySettings = patrollerSettings;
+        Vector2 randomPosition = tilemapLocations[Random.Range(0, tilemapLocations.Count)];
+        mob.transform.position = randomPosition;
+        mob.SetActive(true);
+        _spawnedPatrollers++;
+        return true;
 
 
     }

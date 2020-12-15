@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Pathfinding;
-
+using System.Collections;
 
 public enum EnemyState
 {
@@ -12,7 +12,11 @@ public enum EnemyState
     Attacking
 }
 
-
+public enum MobType
+{
+    Patroller,
+    Chaser
+}
 [RequireComponent(typeof(IAstarAI))]
 public class EnemyBehaviour : MonoBehaviour
 {
@@ -99,13 +103,15 @@ public class EnemyBehaviour : MonoBehaviour
 
     }
 
-    protected void Chase(float speed)
+    protected void Chase(float speed, Vector2 target)
     {
 
-        if (playerLastPosition == null)
-            return;
+        //if (playerLastPosition == null)
+        //    return;
         agent.maxSpeed = speed;
-        agent.destination = playerLastPosition;
+        //agent.destination = playerLastPosition;
+        agent.destination = target;
+
         currentState = EnemyState.Chasing;
 
         if (!agent.reachedDestination)
@@ -131,10 +137,22 @@ public class EnemyBehaviour : MonoBehaviour
     }
 
 
-    
+
     public virtual void Death()
     {
         isDead = true;
+        StartCoroutine(TiltColor());
+    }
+
+    IEnumerator TiltColor()
+    {
+        while (true)
+        {
+            MaterialModifier modifier = GetComponentInChildren<MaterialModifier>();
+
+            modifier.SetTintColor(new Color(1, 1, 1, 1f));
+            yield return new WaitForSeconds(0.2f);
+        }
     }
 
 

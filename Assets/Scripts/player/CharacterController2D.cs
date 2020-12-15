@@ -183,10 +183,14 @@ public class CharacterController2D : MonoBehaviour
     IEnumerator OnDeath()
     {
         if (isDead) yield break;
-        body.velocity = Vector2.zero;
         isDead = true;
+        GetComponentInChildren<MaterialModifier>().SetTintColor(new Color(1, 1, 1, 1), 2f);
+        movement = Vector2.zero;
+        
+        yield return new WaitForSeconds(1f);
         ParticleSystem deathSFX = Instantiate(deathPS);
         deathSFX.transform.position = transform.position;
+
         yield return new WaitForSeconds(deathSFX.main.duration);
         Destroy(deathSFX.gameObject);
 

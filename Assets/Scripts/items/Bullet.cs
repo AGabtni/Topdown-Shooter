@@ -9,15 +9,15 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] ObjectPooler effectPooler;
     LayerMask targetMasks;
-    LayerMask ignoreMasks;
+    LayerMask collisionMasks;
     int damage;
 
     // Update is called once per frame
-    public void SetupBullet(LayerMask ignoreMasks, LayerMask targetMasks, int damage)
+    public void SetupBullet(LayerMask collisionMasks, LayerMask targetMasks, int damage)
     {
 
         this.targetMasks = targetMasks;
-        this.ignoreMasks = ignoreMasks;
+        this.collisionMasks = collisionMasks;
         this.damage = damage;
 
     }
@@ -29,18 +29,30 @@ public class Bullet : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (IsPartOfMasks(col.gameObject.layer, ignoreMasks))
+        if (IsPartOfMasks(col.gameObject.layer, collisionMasks))
             return;
 
         if (IsPartOfMasks(col.gameObject.layer, targetMasks))
         {
             Health health = col.GetComponent<Health>();
+
             if (health)
             {
-                health.ChangeHealth(-damage);
-                health.OnHealtedChange.Invoke();
+
+                if (health.IsAlive())
+                {
+                    MaterialModifier modifier = col.GetComponentInChildren<MaterialModifier>();
+                    if (modifier)
+                    {
+                        modifier.SetTintColor(new Color(1, 0, 0, 1f));
+                    }
+                    health.ChangeHealth(-damage);
+                    health.OnHealtedChange.Invoke();
+                }
+
                 CinemachineShake.Instance.ShakeCamera(5, 0.2f);
             }
+
         }
 
         GameObject effect = effectPooler.GetPooledObject();

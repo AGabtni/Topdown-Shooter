@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1151702415651041789}
   - component: {fileID: 1151702415651041788}
   - component: {fileID: 8799664129007594003}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shotgun Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

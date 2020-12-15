@@ -22,6 +22,7 @@ public class InventoryUI : MonoBehaviour
         if (onItemUpdate == null)
             onItemUpdate = new UnityEvent();
         onItemUpdate.AddListener(UpdateUI);
+        UpdateUI();
     }
 
     public void OnInventoryBtnClicked()

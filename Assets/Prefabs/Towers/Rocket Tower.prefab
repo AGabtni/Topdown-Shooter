@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5807202833346982205}
   - component: {fileID: 5807202833346982204}
   - component: {fileID: 6849552182159041805}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Rocket Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014055118, y: -0.541111}
+  m_Offset: {x: 0.008653283, y: -0.08367634}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -61,7 +61,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0281101, y: 1.0702744}
+  m_Size: {x: 1.125345, y: 2.8765125}
   m_EdgeRadius: 0
 --- !u!114 &5807202833346982205
 MonoBehaviour:
@@ -75,16 +75,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f5adeef16192f4bab61e56bc7be407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastEvolution: 0
   towerGFX: {fileID: 5807202833920653195}
-  tower: {fileID: 11400000, guid: 258bb4f22ddddf84b9c8fa92a655d920, type: 2}
+  towersSettings:
+  - {fileID: 11400000, guid: 258bb4f22ddddf84b9c8fa92a655d920, type: 2}
+  - {fileID: 11400000, guid: a589936ff2039214c8a1454cc52fbe2d, type: 2}
+  - {fileID: 11400000, guid: 776288299553dcf4990e96ae5aa8d443, type: 2}
   bulletPooler: {fileID: 5807202833346982204}
   firePoint: {fileID: 5807202833956617828}
   ignoreMask:
     serializedVersion: 2
-    m_Bits: 8704
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 139776
   deathPS: {fileID: 3445118591014268825, guid: a900a5627b5a6a443ab6535095fe8bb2, type: 3}
 --- !u!114 &5807202833346982204
 MonoBehaviour:
@@ -112,9 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0031d4ddfb2cd449eef9618b72c4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  healthCanvas: {fileID: 6849552182875191805}
   healthFill: {fileID: 6849552182790640964}
-  _currentHealth: 0
+  maxHealth: 200
   OnHealtedChange:
     m_PersistentCalls:
       m_Calls: []
@@ -129,7 +130,8 @@ GameObject:
   - component: {fileID: 5807202833920653194}
   - component: {fileID: 5807202833920653204}
   - component: {fileID: 5807202833920653205}
-  m_Layer: 13
+  - component: {fileID: 1341949542224215481}
+  m_Layer: 17
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +171,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 124ab3a0c96be9c428d3ec706c8d4b6d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,7 +191,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 931f0394ef0853c41950300033b51501, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -220,6 +222,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1341949542224215481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807202833920653195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc0fda3c6daf404a9c319ecdd8ac88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5807202833956617829
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5807202833956617828}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +275,7 @@ GameObject:
   - component: {fileID: 6849552181007375112}
   - component: {fileID: 6849552181007375114}
   - component: {fileID: 6849552181007375113}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +351,7 @@ GameObject:
   - component: {fileID: 6849552182790640966}
   - component: {fileID: 6849552182790640965}
   - component: {fileID: 6849552182790640964}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Health FIll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +427,7 @@ GameObject:
   - component: {fileID: 6849552182875191801}
   - component: {fileID: 6849552182875191800}
   - component: {fileID: 6849552182875191807}
-  m_Layer: 13
+  m_Layer: 17
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.04, y: 1.48}
+  m_AnchoredPosition: {x: -0.04, y: 1.66}
   m_SizeDelta: {x: 990, y: 655.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6849552182875191801

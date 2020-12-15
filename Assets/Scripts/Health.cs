@@ -1,17 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
-
+using System.Collections;
 public class Health : MonoBehaviour
 {
-
+    [SerializeField] GameObject healthCanvas;
+    [SerializeField] Image healthFill;
+    private float _currentHealth;
 
     public float maxHealth = 100.0f;
-    [SerializeField] Image healthFill;
-    [SerializeField] private float _currentHealth;
 
     [HideInInspector]
     public float currentHealth
@@ -27,15 +25,30 @@ public class Health : MonoBehaviour
             OnHealtedChange = new UnityEvent();
         OnHealtedChange.AddListener(UpdateHealthBarUI);
         _currentHealth = maxHealth;
+        if (healthCanvas != null)
+            healthCanvas.SetActive(false);
     }
 
     public void UpdateHealthBarUI()
     {
         if (healthFill == null)
             return;
+        if (healthCanvas != null)
+        {
+            StopAllCoroutines();
+            healthCanvas.SetActive(true);
+        }
 
         float healthAmount = currentHealth / maxHealth;
         healthFill.fillAmount = healthAmount;
+        if (healthCanvas != null)
+            StartCoroutine(HideHealthBar());
+    }
+    IEnumerator HideHealthBar()
+    {
+
+        yield return new WaitForSeconds(1f);
+        healthCanvas.SetActive(false);
 
     }
     public void ChangeHealth(int healthAmount)
@@ -49,6 +62,7 @@ public class Health : MonoBehaviour
     {
 
         _currentHealth = maxHealth;
+        OnHealtedChange.Invoke();
 
 
 

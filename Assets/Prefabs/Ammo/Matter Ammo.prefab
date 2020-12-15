@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5226762916180877546}
   - component: {fileID: 4036799875075639123}
   - component: {fileID: 5611657486648073404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Matter Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

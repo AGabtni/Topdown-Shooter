@@ -16,17 +16,16 @@ public class CinemachineShake : GenericSingletonClass<CinemachineShake>
     private void Start()
     {
 
+        
 
         virtualCamera = GetComponent<CinemachineVirtualCamera>();
         perlinChannel = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     public void ShakeCamera(float intensity, float duration)
     {
 
-        Debug.Log(Instance.virtualCamera);
-        Debug.Log(virtualCamera);
 
         CinemachineBasicMultiChannelPerlin perlinChannel = Instance.virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
