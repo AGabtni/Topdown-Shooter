@@ -75,3 +75,7 @@ crashlytics-build.properties
 /[Aa]ssets/Artwork/Packages
 /AstarPathfindingProject/ExampleScenes
 /Build/*
+/Recordings/Screenshots/Original/*
+/Recordings/*.mp4
+/Assets/*.meta
+/Assets/Readme.asset

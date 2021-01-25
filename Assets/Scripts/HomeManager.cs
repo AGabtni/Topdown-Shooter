@@ -31,9 +31,9 @@ public class HomeManager : MonoBehaviour
 
         currentDifficulty = difficultyScroll.StartingScreen < Enum.GetValues(typeof(Difficulty)).Length ? (Difficulty)difficultyScroll.StartingScreen : Difficulty.Easy;
         playerCharacter = characterScroll.StartingScreen < Enum.GetValues(typeof(CharacterName)).Length ? (CharacterName)characterScroll.StartingScreen : CharacterName.Character1;
-       
-        StartCoroutine(overlayController.FadeColor(1f,new Color(0,0,0,0)));
-        StartCoroutine(overlayController.FadeValue(1f,0));
+
+        StartCoroutine(overlayController.FadeColor(1f, new Color(0, 0, 0, 0)));
+        StartCoroutine(overlayController.FadeValue(1f, 0));
 
     }
 
@@ -51,10 +51,10 @@ public class HomeManager : MonoBehaviour
 
     }
 
-      IEnumerator Play()
+    IEnumerator Play()
     {
-        StartCoroutine(overlayController.FadeColor(1f,new Color(0,0,0,1)));
-        yield return  StartCoroutine(overlayController.FadeValue(1f,1f));
+        StartCoroutine(overlayController.FadeValue(1f, 1f));
+        yield return StartCoroutine(overlayController.FadeColor(1.25f, new Color(0, 0, 0, 1)));
         SceneManager.LoadScene(1);
 
     }
@@ -66,14 +66,10 @@ public class HomeManager : MonoBehaviour
     }
     IEnumerator Quit()
     {
-        StartCoroutine(overlayController.FadeColor(1f, new Color(0,0,0,1)));
-        yield return StartCoroutine(overlayController.FadeValue(1f,1f));
 
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-         Application.Quit();
-#endif
+        StartCoroutine(overlayController.FadeValue(1f, 1f));
+        yield return StartCoroutine(overlayController.FadeColor(1.5f, new Color(0, 0, 0, 1)));
+        Application.OpenURL("https://github.com/AGabtni");
 
     }
 

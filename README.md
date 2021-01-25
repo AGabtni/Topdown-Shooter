@@ -3,12 +3,17 @@
 
 A 2D top-down pixel shooter game with pixelart assets from itch.io .
 
+You can check the game live on [itch.io](https://agabtni.itch.io/pixel-shooter)
+
 
 ## Preview 
 
 ![Preview](Recordings/Preview.gif)
 
-|![alt text](Recordings/Screenshots/movie_001-0.jpg)|![alt text](Recordings/Screenshots/movie_001-1.jpg)|![alt text](Recordings/Screenshots/movie_001-2.jpg)|
+
+Screenshot 1               |  Screenshot 2             |  Screenshot 3
+:-------------------------:|:-------------------------:|:-------------------------:
+![screenshot](Recordings/Screenshots/screenshot_1.jpg)|![screenshot](Recordings/Screenshots/screenshot_2.jpg)|![screenshot](Recordings/Screenshots/screenshot_3.jpg)
 
 
 
@@ -20,7 +25,8 @@ Assets creators :
 -   https://pixel-poem.itch.io/dungeon-assetpuck
 -   https://mounirtohami.itch.io/pixel-art-gui-elements
 -   https://untiedgames.itch.io/five-free-pixel-explosions
-Exernal packages : 
+
+External packages : 
 
 A* pathfinding package : 
 

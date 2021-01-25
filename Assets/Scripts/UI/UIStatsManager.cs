@@ -26,22 +26,21 @@ public class UIStatsManager : MonoBehaviour
     void Start()
     {
         fullStats = ScenesManager.Instance.GetStatsFromJSON();
-       
+
 
         FillStatsUI("level1");
     }
     public void FillStatsUI(string levelName)
     {
-   
+
         if (fullStats != null)
         {
             Array difficulties = Enum.GetValues(typeof(Difficulty));
 
             foreach (Difficulty difficulty in difficulties)
             {
-                Debug.Log(difficulty);
                 int playerTime = Mathf.FloorToInt(fullStats.GetPlayerTime(levelName, difficulty.ToString()));
-                String newText = playerTime > 0 ? playerTime.ToString() +" s" : "No data available";
+                String newText = playerTime > 0 ? playerTime.ToString() + " s" : "No data available";
                 newText = newText.PadLeft(newText.Length + 1, ' ');
                 switch (difficulty)
                 {
@@ -60,6 +59,13 @@ public class UIStatsManager : MonoBehaviour
                 //else
 
             }
+        }
+        else
+        {
+            easyModeText.text = " No data available";
+            mediumModeText.text = " No data available";
+            hardModeText.text = " No data available";
+
         }
     }
 

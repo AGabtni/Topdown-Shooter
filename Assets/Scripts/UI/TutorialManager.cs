@@ -64,6 +64,7 @@ public class TutorialManager : MonoBehaviour
         tutorialCamera.gameObject.SetActive(false);
         DialogueManager.Instance.StartDialogue(dialogues[dialogues.Count - 1]);
         while (DialogueManager.Instance.IsDialogueOpen()) yield return null;
+        Camera.main.orthographicSize = zoomedOutSize;
         Camera.main.GetComponent<PixelPerfectCamera>().enabled = true;
 
         messagesAnimator.SetTrigger("FadeOut");
