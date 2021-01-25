@@ -21,11 +21,6 @@ public class InventorySlot : MonoBehaviour
         if (currentItem != null)
         {
 
-
-            //TODO : Unequip currently equipped weapon
-
-
-            
             currentItem.Equip();
         }
     }
@@ -34,6 +29,12 @@ public class InventorySlot : MonoBehaviour
     {
         currentItem = newItem;
         icon.sprite = currentItem.defaulSprite;
+        icon.SetNativeSize();
+        if (newItem.itemType == ItemType.Weapon)
+            icon.rectTransform.sizeDelta /= 2.75f;
+        else
+            icon.rectTransform.sizeDelta /= 2f;
+
         icon.enabled = true;
     }
 
@@ -44,5 +45,8 @@ public class InventorySlot : MonoBehaviour
         icon.enabled = false;
     }
 
+    public bool IsSlotOccupied(){
+        return currentItem == null ? false : true;
+    }
 
 }

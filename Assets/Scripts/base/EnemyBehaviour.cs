@@ -20,12 +20,11 @@ public enum MobType
 [RequireComponent(typeof(IAstarAI))]
 public class EnemyBehaviour : MonoBehaviour
 {
-
+    
 
 
     [SerializeField] Transform enemyGFX;
     [SerializeField] Transform visionCone;
-    [SerializeField] protected ObjectPooler effectPooler;
 
     protected bool isDead = false;
     protected Animator enemyAnim;
@@ -33,7 +32,7 @@ public class EnemyBehaviour : MonoBehaviour
     protected Health health;
     protected EnemyState currentState;
     public Vector3[] patrolPoints;
-    /// Time in seconds to wait at each target
+    /// Time in seconds to wait at each point
     public float delay = 0;
     ///Current target index
     int index = 0;
@@ -66,7 +65,6 @@ public class EnemyBehaviour : MonoBehaviour
     {
         isDead = false;
         health.RestoreHealth();
-        health.OnHealtedChange.Invoke();
         agent.isStopped = false;
         switchTime = float.PositiveInfinity;
         currentState = EnemyState.Idle;

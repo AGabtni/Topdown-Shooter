@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -7,7 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] ObjectPooler effectPooler;
+    [SerializeField] EffectType collisionEffectType;
     LayerMask targetMasks;
     LayerMask collisionMasks;
     int damage;
@@ -27,6 +27,7 @@ public class Bullet : MonoBehaviour
         return masks == (masks | (1 << mask));
 
     }
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (IsPartOfMasks(col.gameObject.layer, collisionMasks))
@@ -34,28 +35,24 @@ public class Bullet : MonoBehaviour
 
         if (IsPartOfMasks(col.gameObject.layer, targetMasks))
         {
-            Health health = col.GetComponent<Health>();
+            Health health = col.transform.root.GetComponent<Health>();
 
-            if (health)
+
+            if (health && health.IsAlive())
             {
+                MaterialModifier modifier = col.transform.root.GetComponentInChildren<MaterialModifier>();
+                if (modifier)
+                    modifier.SetTintColor(new Color(1, 0, 0, 1f));
 
-                if (health.IsAlive())
-                {
-                    MaterialModifier modifier = col.GetComponentInChildren<MaterialModifier>();
-                    if (modifier)
-                    {
-                        modifier.SetTintColor(new Color(1, 0, 0, 1f));
-                    }
-                    health.ChangeHealth(-damage);
-                    health.OnHealtedChange.Invoke();
-                }
-
+                health.ChangeHealth(-damage);
                 CinemachineShake.Instance.ShakeCamera(5, 0.2f);
             }
 
         }
 
-        GameObject effect = effectPooler.GetPooledObject();
+        GameObject effect = FindObjectsOfType<EffectPooler>()
+                    .First(pooler => pooler.effectType == collisionEffectType)
+                    .GetPooledObject();
         effect.transform.position = transform.position;
         effect.gameObject.SetActive(true);
         effect.GetComponent<DesactivateObject>().Desactivate(.25f);

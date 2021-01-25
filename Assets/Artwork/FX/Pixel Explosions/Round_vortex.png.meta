@@ -1,0 +1,2728 @@
+fileFormatVersion: 2
+guid: ac786e66ff77eb44bbc9c1558a2a4d65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2190105900404552962
+    second: Round_vortex_0
+  - first:
+      213: -483512318445518555
+    second: Round_vortex_1
+  - first:
+      213: 8108704201736868127
+    second: Round_vortex_2
+  - first:
+      213: 6186506869342812179
+    second: Round_vortex_3
+  - first:
+      213: -4360474124688833906
+    second: Round_vortex_4
+  - first:
+      213: -1518413575776163637
+    second: Round_vortex_5
+  - first:
+      213: -6605142075822480928
+    second: Round_vortex_6
+  - first:
+      213: -4200971690707920342
+    second: Round_vortex_7
+  - first:
+      213: -500280622051920144
+    second: Round_vortex_8
+  - first:
+      213: 1017042873235878324
+    second: Round_vortex_9
+  - first:
+      213: -5625966589320672347
+    second: Round_vortex_10
+  - first:
+      213: 5747739400855009359
+    second: Round_vortex_11
+  - first:
+      213: 3119410711329434408
+    second: Round_vortex_12
+  - first:
+      213: -2201596484433420031
+    second: Round_vortex_13
+  - first:
+      213: 3031090391533657764
+    second: Round_vortex_14
+  - first:
+      213: 2739896104024960625
+    second: Round_vortex_15
+  - first:
+      213: -6675707587207340587
+    second: Round_vortex_16
+  - first:
+      213: 1920735828216694068
+    second: Round_vortex_17
+  - first:
+      213: -8747043242744610101
+    second: Round_vortex_18
+  - first:
+      213: 1607561439629861017
+    second: Round_vortex_19
+  - first:
+      213: -964018384263920766
+    second: Round_vortex_20
+  - first:
+      213: -1122297334894155241
+    second: Round_vortex_21
+  - first:
+      213: 8619205756917305699
+    second: Round_vortex_22
+  - first:
+      213: 425234572883130926
+    second: Round_vortex_23
+  - first:
+      213: -4370273411202743317
+    second: Round_vortex_24
+  - first:
+      213: -1734915043746841088
+    second: Round_vortex_25
+  - first:
+      213: -1334565022298395612
+    second: Round_vortex_26
+  - first:
+      213: 8995609467460649697
+    second: Round_vortex_27
+  - first:
+      213: -4349102132136942471
+    second: Round_vortex_28
+  - first:
+      213: -6459746707008752782
+    second: Round_vortex_29
+  - first:
+      213: 2823909748278251718
+    second: Round_vortex_30
+  - first:
+      213: 9011140360941373643
+    second: Round_vortex_31
+  - first:
+      213: 5966877445275435280
+    second: Round_vortex_32
+  - first:
+      213: 6026539027587013402
+    second: Round_vortex_33
+  - first:
+      213: -6689015361468900933
+    second: Round_vortex_34
+  - first:
+      213: -5851483595679356223
+    second: Round_vortex_35
+  - first:
+      213: -2720531120369868554
+    second: Round_vortex_36
+  - first:
+      213: -5327572047774214857
+    second: Round_vortex_37
+  - first:
+      213: -6762426956666567478
+    second: Round_vortex_38
+  - first:
+      213: -673049757469638314
+    second: Round_vortex_39
+  - first:
+      213: 7113951774722705604
+    second: Round_vortex_40
+  - first:
+      213: 4865145285460404505
+    second: Round_vortex_41
+  - first:
+      213: -880180414968666936
+    second: Round_vortex_42
+  - first:
+      213: 1145797288690832451
+    second: Round_vortex_43
+  - first:
+      213: 7730180149449892272
+    second: Round_vortex_44
+  - first:
+      213: -8258669150542132951
+    second: Round_vortex_45
+  - first:
+      213: -2244850922491353517
+    second: Round_vortex_46
+  - first:
+      213: -1412125711773264009
+    second: Round_vortex_47
+  - first:
+      213: -1259244197649435281
+    second: Round_vortex_48
+  - first:
+      213: -7704371471391040295
+    second: Round_vortex_49
+  - first:
+      213: 1119940078067559395
+    second: Round_vortex_50
+  - first:
+      213: -7937242833356209648
+    second: Round_vortex_51
+  - first:
+      213: -8138514544985848948
+    second: Round_vortex_52
+  - first:
+      213: 3744678637544283991
+    second: Round_vortex_53
+  - first:
+      213: -8614675578064762470
+    second: Round_vortex_54
+  - first:
+      213: -2661279351893861035
+    second: Round_vortex_55
+  - first:
+      213: -3269771441574407392
+    second: Round_vortex_56
+  - first:
+      213: -3478964723375768270
+    second: Round_vortex_57
+  - first:
+      213: -4066368321262827049
+    second: Round_vortex_58
+  - first:
+      213: -8039717670384749476
+    second: Round_vortex_59
+  - first:
+      213: 7936187900844750466
+    second: Round_vortex_60
+  - first:
+      213: -901529383081996620
+    second: Round_vortex_61
+  - first:
+      213: -7895088636442903109
+    second: Round_vortex_62
+  - first:
+      213: -5813927668132161985
+    second: Round_vortex_63
+  - first:
+      213: 6623367018091277432
+    second: Round_vortex_64
+  - first:
+      213: -191493770811667768
+    second: Round_vortex_65
+  - first:
+      213: -975375385151552425
+    second: Round_vortex_66
+  - first:
+      213: -6229302929467668392
+    second: Round_vortex_67
+  - first:
+      213: -6355040502409987147
+    second: Round_vortex_68
+  - first:
+      213: -8452141530406240331
+    second: Round_vortex_69
+  - first:
+      213: -7171734346753047736
+    second: Round_vortex_70
+  - first:
+      213: 1591097666491772747
+    second: Round_vortex_71
+  - first:
+      213: 1283876263911655229
+    second: Round_vortex_72
+  - first:
+      213: 6645765588596893039
+    second: Round_vortex_73
+  - first:
+      213: 251389543961971735
+    second: Round_vortex_74
+  - first:
+      213: 4189882320707542225
+    second: Round_vortex_75
+  - first:
+      213: 2875213367873067204
+    second: Round_vortex_76
+  - first:
+      213: -5905185697680179633
+    second: Round_vortex_77
+  - first:
+      213: -428279898754470843
+    second: Round_vortex_78
+  - first:
+      213: 1055911073778508912
+    second: Round_vortex_79
+  - first:
+      213: -7912153626341654150
+    second: Round_vortex_80
+  - first:
+      213: 5462085544645495735
+    second: Round_vortex_81
+  - first:
+      213: -5473368158835046411
+    second: Round_vortex_82
+  - first:
+      213: -5901212152670550452
+    second: Round_vortex_83
+  - first:
+      213: 5614132810757208425
+    second: Round_vortex_84
+  - first:
+      213: 330431269834992705
+    second: Round_vortex_85
+  - first:
+      213: -2669723194640935034
+    second: Round_vortex_86
+  - first:
+      213: -293215421871634721
+    second: Round_vortex_87
+  - first:
+      213: -7138554740430027158
+    second: Round_vortex_88
+  - first:
+      213: -3395826713358970623
+    second: Round_vortex_89
+  - first:
+      213: -8488862584257505310
+    second: Round_vortex_90
+  - first:
+      213: 2240512798879694697
+    second: Round_vortex_91
+  - first:
+      213: -2828160523346317037
+    second: Round_vortex_92
+  - first:
+      213: -2810539633629140437
+    second: Round_vortex_93
+  - first:
+      213: -5161188277980324954
+    second: Round_vortex_94
+  - first:
+      213: -1161209894007868830
+    second: Round_vortex_95
+  - first:
+      213: 8966767761213867119
+    second: Round_vortex_96
+  - first:
+      213: -5142422187760923354
+    second: Round_vortex_97
+  - first:
+      213: 5472344208012232639
+    second: Round_vortex_98
+  - first:
+      213: 7654877303303975890
+    second: Round_vortex_99
+  - first:
+      213: -2812419870287383618
+    second: Round_vortex_100
+  - first:
+      213: -3038815824377534670
+    second: Round_vortex_101
+  - first:
+      213: -1222321604124914293
+    second: Round_vortex_102
+  - first:
+      213: 3214892053333111838
+    second: Round_vortex_103
+  - first:
+      213: 6234186167019811240
+    second: Round_vortex_104
+  - first:
+      213: 479796633691625505
+    second: Round_vortex_105
+  - first:
+      213: -271329947317994986
+    second: Round_vortex_106
+  - first:
+      213: 5246744433959189744
+    second: Round_vortex_107
+  - first:
+      213: 6100780216825245765
+    second: Round_vortex_108
+  - first:
+      213: 7162589121219940027
+    second: Round_vortex_109
+  - first:
+      213: -2029185577630761227
+    second: Round_vortex_110
+  - first:
+      213: -941628994608600784
+    second: Round_vortex_111
+  - first:
+      213: 1892706261117863891
+    second: Round_vortex_112
+  - first:
+      213: -4812495083859059724
+    second: Round_vortex_113
+  - first:
+      213: -694142955949501771
+    second: Round_vortex_114
+  - first:
+      213: -6230406957880745806
+    second: Round_vortex_115
+  - first:
+      213: 1406508854550318175
+    second: Round_vortex_116
+  - first:
+      213: -2511034297341816698
+    second: Round_vortex_117
+  - first:
+      213: 2496442564474318018
+    second: Round_vortex_118
+  - first:
+      213: -3189540205232143314
+    second: Round_vortex_119
+  - first:
+      213: -1692285376527243345
+    second: Round_vortex_120
+  - first:
+      213: 1475520891501685660
+    second: Round_vortex_121
+  - first:
+      213: -8803093684880280805
+    second: Round_vortex_122
+  - first:
+      213: -846082085994524723
+    second: Round_vortex_123
+  - first:
+      213: 5321618681203635403
+    second: Round_vortex_124
+  - first:
+      213: -8723423976016949562
+    second: Round_vortex_125
+  - first:
+      213: -9048131995116718720
+    second: Round_vortex_126
+  - first:
+      213: -4877650200493248388
+    second: Round_vortex_127
+  - first:
+      213: -7171934571807080537
+    second: Round_vortex_128
+  - first:
+      213: 7054538119153986032
+    second: Round_vortex_129
+  - first:
+      213: -2777300897448646696
+    second: Round_vortex_130
+  - first:
+      213: 5391721170675407220
+    second: Round_vortex_131
+  - first:
+      213: -514509431967432053
+    second: Round_vortex_132
+  - first:
+      213: 4436689173336680835
+    second: Round_vortex_133
+  - first:
+      213: -5998406037730259625
+    second: Round_vortex_134
+  - first:
+      213: -6834095117793616876
+    second: Round_vortex_135
+  - first:
+      213: 1008867858405244855
+    second: Round_vortex_136
+  - first:
+      213: -5775633407247319665
+    second: Round_vortex_137
+  - first:
+      213: -8744136282660608431
+    second: Round_vortex_138
+  - first:
+      213: 4008898044724553782
+    second: Round_vortex_139
+  - first:
+      213: 6833443428205628891
+    second: Round_vortex_140
+  - first:
+      213: 5757683438145802555
+    second: Round_vortex_141
+  - first:
+      213: -2441519236866007283
+    second: Round_vortex_142
+  - first:
+      213: -3218284631185989893
+    second: Round_vortex_143
+  - first:
+      213: -7487076288341458895
+    second: Round_vortex_144
+  - first:
+      213: 8341628168289208515
+    second: Round_vortex_145
+  - first:
+      213: -340005437231762616
+    second: Round_vortex_146
+  - first:
+      213: 5274080204065130022
+    second: Round_vortex_147
+  - first:
+      213: 2126316949529483869
+    second: Round_vortex_148
+  - first:
+      213: 7369958452126303912
+    second: Round_vortex_149
+  - first:
+      213: -6511318758355276599
+    second: Round_vortex_150
+  - first:
+      213: -7729996819206897748
+    second: Round_vortex_151
+  - first:
+      213: 3702582904940414573
+    second: Round_vortex_152
+  - first:
+      213: -4013752033937555599
+    second: Round_vortex_153
+  - first:
+      213: 7984433018008837647
+    second: Round_vortex_154
+  - first:
+      213: 4116266196958675008
+    second: Round_vortex_155
+  - first:
+      213: 5861533407957021948
+    second: Round_vortex_156
+  - first:
+      213: -4824895326583517218
+    second: Round_vortex_157
+  - first:
+      213: 5540099668401072101
+    second: Round_vortex_158
+  - first:
+      213: 7193270963740804972
+    second: Round_vortex_159
+  - first:
+      213: -4650087822304047826
+    second: Round_vortex_160
+  - first:
+      213: -3805458969199762907
+    second: Round_vortex_161
+  - first:
+      213: -3170255760233139386
+    second: Round_vortex_162
+  - first:
+      213: 7107178815361241526
+    second: Round_vortex_163
+  - first:
+      213: 8773146801160138737
+    second: Round_vortex_164
+  - first:
+      213: 1597464678423686597
+    second: Round_vortex_165
+  - first:
+      213: -2332461650938529283
+    second: Round_vortex_166
+  - first:
+      213: -4123551961510251902
+    second: Round_vortex_167
+  - first:
+      213: -5937565495035155015
+    second: Round_vortex_168
+  - first:
+      213: -3642874066449893922
+    second: Round_vortex_169
+  - first:
+      213: 7745830148574948352
+    second: Round_vortex_170
+  - first:
+      213: 958655341899572433
+    second: Round_vortex_171
+  - first:
+      213: -6584680871702838023
+    second: Round_vortex_172
+  - first:
+      213: 6172045479796138162
+    second: Round_vortex_173
+  - first:
+      213: -2614985439265324709
+    second: Round_vortex_174
+  - first:
+      213: -2886203645313202743
+    second: Round_vortex_175
+  - first:
+      213: -5523500167452018620
+    second: Round_vortex_176
+  - first:
+      213: 8300008885049985794
+    second: Round_vortex_177
+  - first:
+      213: -1169096928527974032
+    second: Round_vortex_178
+  - first:
+      213: -5352666116167269939
+    second: Round_vortex_179
+  - first:
+      213: -2888324935090532684
+    second: Round_vortex_180
+  - first:
+      213: -7493896363444876685
+    second: Round_vortex_181
+  - first:
+      213: -8763166524079924997
+    second: Round_vortex_182
+  - first:
+      213: -1281635710972449041
+    second: Round_vortex_183
+  - first:
+      213: -4022760914891454733
+    second: Round_vortex_184
+  - first:
+      213: 8616868479258699859
+    second: Round_vortex_185
+  - first:
+      213: 8590476488837778810
+    second: Round_vortex_186
+  - first:
+      213: -5670200575373013903
+    second: Round_vortex_187
+  - first:
+      213: 734247182186332927
+    second: Round_vortex_188
+  - first:
+      213: -642235744568071692
+    second: Round_vortex_189
+  - first:
+      213: 3917565688831194000
+    second: Round_vortex_190
+  - first:
+      213: 5207687701320246840
+    second: Round_vortex_191
+  - first:
+      213: -1592316719954281916
+    second: Round_vortex_192
+  - first:
+      213: -2764620220589508610
+    second: Round_vortex_193
+  - first:
+      213: -3902914223383103809
+    second: Round_vortex_194
+  - first:
+      213: 2117902077547773503
+    second: Round_vortex_195
+  - first:
+      213: 130084138005541010
+    second: Round_vortex_196
+  - first:
+      213: 6593044242532095059
+    second: Round_vortex_197
+  - first:
+      213: -1745374750937561707
+    second: Round_vortex_198
+  - first:
+      213: -5009865839893023549
+    second: Round_vortex_199
+  - first:
+      213: 1054221868443073063
+    second: Round_vortex_200
+  - first:
+      213: -8174375573917899617
+    second: Round_vortex_201
+  - first:
+      213: -6901060812685621625
+    second: Round_vortex_202
+  - first:
+      213: -8861212537937936218
+    second: Round_vortex_203
+  - first:
+      213: -6375120134892003627
+    second: Round_vortex_204
+  - first:
+      213: -31034078431342867
+    second: Round_vortex_205
+  - first:
+      213: 6280914751849683343
+    second: Round_vortex_206
+  - first:
+      213: -2583727988891657950
+    second: Round_vortex_207
+  - first:
+      213: -7954793458611050990
+    second: Round_vortex_208
+  - first:
+      213: -2389885615057061774
+    second: Round_vortex_209
+  - first:
+      213: 5204742708154802816
+    second: Round_vortex_210
+  - first:
+      213: -3471250645013812361
+    second: Round_vortex_211
+  - first:
+      213: -5119985466262358410
+    second: Round_vortex_212
+  - first:
+      213: 5264342911086933172
+    second: Round_vortex_213
+  - first:
+      213: 8810341314624068954
+    second: Round_vortex_214
+  - first:
+      213: -4517528385581026624
+    second: Round_vortex_215
+  - first:
+      213: 7045827794131942279
+    second: Round_vortex_216
+  - first:
+      213: 7315869063121168064
+    second: Round_vortex_217
+  - first:
+      213: -7198590952847806774
+    second: Round_vortex_218
+  - first:
+      213: 3920017817454101830
+    second: Round_vortex_219
+  - first:
+      213: 3688555401685435750
+    second: Round_vortex_220
+  - first:
+      213: 8965443805757702467
+    second: Round_vortex_221
+  - first:
+      213: -5134407329528438213
+    second: Round_vortex_222
+  - first:
+      213: -1899020992281047199
+    second: Round_vortex_223
+  - first:
+      213: 6001277462967478056
+    second: Round_vortex_224
+  - first:
+      213: 4978555514082936860
+    second: Round_vortex_225
+  - first:
+      213: 6844938092520308170
+    second: Round_vortex_226
+  - first:
+      213: -3119616287062182066
+    second: Round_vortex_227
+  - first:
+      213: 839264422279109646
+    second: Round_vortex_228
+  - first:
+      213: 5127488962949228649
+    second: Round_vortex_229
+  - first:
+      213: 2451023374058016739
+    second: Round_vortex_230
+  - first:
+      213: -2601304271540029340
+    second: Round_vortex_231
+  - first:
+      213: 447877660111249110
+    second: Round_vortex_232
+  - first:
+      213: -6704516613806107480
+    second: Round_vortex_233
+  - first:
+      213: 6056442129679264628
+    second: Round_vortex_234
+  - first:
+      213: 2211939939193314345
+    second: Round_vortex_235
+  - first:
+      213: -1989596228409482277
+    second: Round_vortex_236
+  - first:
+      213: -6725470574246524643
+    second: Round_vortex_237
+  - first:
+      213: 2448794230944213183
+    second: Round_vortex_238
+  - first:
+      213: 2280218692262943146
+    second: Round_vortex_239
+  - first:
+      213: -1325152035253765392
+    second: Round_vortex_240
+  - first:
+      213: -2710348179844733382
+    second: Round_vortex_241
+  - first:
+      213: 8990606952795660436
+    second: Round_vortex_242
+  - first:
+      213: -3021697779463442505
+    second: Round_vortex_243
+  - first:
+      213: 5443198380880900578
+    second: Round_vortex_244
+  - first:
+      213: 1867770872942219883
+    second: Round_vortex_245
+  - first:
+      213: -1288235759471174181
+    second: Round_vortex_246
+  - first:
+      213: 8931462651244332289
+    second: Round_vortex_247
+  - first:
+      213: 4419620839500743676
+    second: Round_vortex_248
+  - first:
+      213: 6864380172428759170
+    second: Round_vortex_249
+  - first:
+      213: -4569401216826152135
+    second: Round_vortex_250
+  - first:
+      213: -6820204739898754853
+    second: Round_vortex_251
+  - first:
+      213: -1116715519357120395
+    second: Round_vortex_252
+  - first:
+      213: 8532904468176796703
+    second: Round_vortex_253
+  - first:
+      213: -1024447284365965500
+    second: Round_vortex_254
+  - first:
+      213: 2475169305153495535
+    second: Round_vortex_255
+  - first:
+      213: 999539823963857922
+    second: Round_vortex_256
+  - first:
+      213: -5625379217766977204
+    second: Round_vortex_257
+  - first:
+      213: 2319878956502787963
+    second: Round_vortex_258
+  - first:
+      213: -3924263756427609158
+    second: Round_vortex_259
+  - first:
+      213: -6559787294278077224
+    second: Round_vortex_260
+  - first:
+      213: 1490560207250356044
+    second: Round_vortex_261
+  - first:
+      213: 5438693461001064130
+    second: Round_vortex_262
+  - first:
+      213: -4902959989103521185
+    second: Round_vortex_263
+  - first:
+      213: 864350129060636917
+    second: Round_vortex_264
+  - first:
+      213: 7882247184280072792
+    second: Round_vortex_265
+  - first:
+      213: -8372093795603687583
+    second: Round_vortex_266
+  - first:
+      213: -7798212491304135394
+    second: Round_vortex_267
+  - first:
+      213: 4173716290343194380
+    second: Round_vortex_268
+  - first:
+      213: 4011651163276724215
+    second: Round_vortex_269
+  - first:
+      213: 3634682511841186152
+    second: Round_vortex_270
+  - first:
+      213: -6999050711767772398
+    second: Round_vortex_271
+  - first:
+      213: 4345882375551391207
+    second: Round_vortex_272
+  - first:
+      213: -884151643491656364
+    second: Round_vortex_273
+  - first:
+      213: -8625926449322192086
+    second: Round_vortex_274
+  - first:
+      213: -7224899033727426132
+    second: Round_vortex_275
+  - first:
+      213: 2497780522256140531
+    second: Round_vortex_276
+  - first:
+      213: -3080925641856933734
+    second: Round_vortex_277
+  - first:
+      213: 2012028155024247050
+    second: Round_vortex_278
+  - first:
+      213: -7579958710269039139
+    second: Round_vortex_279
+  - first:
+      213: -3277826214760155532
+    second: Round_vortex_280
+  - first:
+      213: -6451621697502428075
+    second: Round_vortex_281
+  - first:
+      213: 8271234627890363504
+    second: Round_vortex_282
+  - first:
+      213: 8850567971425210427
+    second: Round_vortex_283
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Round_vortex_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa46e9894e2b91e0800000000000000
+      internalID: -2190105900404552962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521878eab183a49f0800000000000000
+      internalID: -483512318445518555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f115e3d7287e78070800000000000000
+      internalID: 8108704201736868127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31831bb5833ead550800000000000000
+      internalID: 6186506869342812179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82c3a9e2eb7c73c0800000000000000
+      internalID: -4360474124688833906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82bb1d5e28deae0800000000000000
+      internalID: -1518413575776163637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e16d9f0742d554a0800000000000000
+      internalID: -6605142075822480928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad1e7418623b5c0800000000000000
+      internalID: -4200971690707920342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f67592cc65ae09f0800000000000000
+      internalID: -500280622051920144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1319cca134d1e00800000000000000
+      internalID: 1017042873235878324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab4355d13d8ce1b0800000000000000
+      internalID: -5625966589320672347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48ba71488214cf40800000000000000
+      internalID: 5747739400855009359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be65db38f5a4b20800000000000000
+      internalID: 3119410711329434408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101e89679ab5271e0800000000000000
+      internalID: -2201596484433420031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae9675d6a8901a20800000000000000
+      internalID: 3031090391533657764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e62e17df0160620800000000000000
+      internalID: 2739896104024960625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd5020a15f1b53a0800000000000000
+      internalID: -6675707587207340587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c83c2f03d7aa10800000000000000
+      internalID: 1920735828216694068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc20a39b3824c9680800000000000000
+      internalID: -8747043242744610101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990e0c3bc943f4610800000000000000
+      internalID: 1607561439629861017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c009136e1f92f0800000000000000
+      internalID: -964018384263920766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a2445258ccc60f0800000000000000
+      internalID: -1122297334894155241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361de0b28f19d9770800000000000000
+      internalID: 8619205756917305699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2af9ee479cb6e500800000000000000
+      internalID: 425234572883130926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be30de9bc7ba953c0800000000000000
+      internalID: -4370273411202743317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00efcfda5f75ce7e0800000000000000
+      internalID: -1734915043746841088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2e3cde2caa7de0800000000000000
+      internalID: -1334565022298395612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2022e5623d6dc70800000000000000
+      internalID: 8995609467460649697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974651247a2e4a3c0800000000000000
+      internalID: -4349102132136942471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2737ebd589e5a56a0800000000000000
+      internalID: -6459746707008752782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c053ef44fa803720800000000000000
+      internalID: 2823909748278251718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8881b4a600e0d70800000000000000
+      internalID: 9011140360941373643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ceef2c6b9ec250800000000000000
+      internalID: 5966877445275435280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1a5cc05192a350800000000000000
+      internalID: 6026539027587013402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9d38af7f7db23a0800000000000000
+      internalID: -6689015361468900933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caa1861caa5bcea0800000000000000
+      internalID: -5851483595679356223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f065f92c5bbe3ad0800000000000000
+      internalID: -2720531120369868554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7351e110379a016b0800000000000000
+      internalID: -5327572047774214857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac40d5403880722a0800000000000000
+      internalID: -6762426956666567478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6510cd1cfc8d8a6f0800000000000000
+      internalID: -673049757469638314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c84b91a275d9b260800000000000000
+      internalID: 7113951774722705604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919a8884cd7748340800000000000000
+      internalID: 4865145285460404505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c469837398f8c3f0800000000000000
+      internalID: -880180414968666936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344d5093090b6ef00800000000000000
+      internalID: 1145797288690832451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1acb1c3ed174b60800000000000000
+      internalID: 7730180149449892272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9298574f920536d80800000000000000
+      internalID: -8258669150542132951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356e13fcaffa8d0e0800000000000000
+      internalID: -2244850922491353517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7771f8b952f176ce0800000000000000
+      internalID: -1412125711773264009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_48
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6532a1f214468ee0800000000000000
+      internalID: -1259244197649435281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_49
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc551e57f2941590800000000000000
+      internalID: -7704371471391040295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eba0fa3193da8f00800000000000000
+      internalID: 1119940078067559395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012c9c542bf39d190800000000000000
+      internalID: -7937242833356209648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83c4ca14203e0f80800000000000000
+      internalID: -8138514544985848948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f12d47165c7f330800000000000000
+      internalID: 3744678637544283991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99873a4436827880800000000000000
+      internalID: -8614675578064762470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_55
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dd84e878c311bd0800000000000000
+      internalID: -2661279351893861035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_56
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0239d38a2307f92d0800000000000000
+      internalID: -3269771441574407392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7215340c38bfc0800000000000000
+      internalID: -3478964723375768270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d94a3d6e8b5197c0800000000000000
+      internalID: -4066368321262827049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c543942006f2d6090800000000000000
+      internalID: -8039717670384749476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286ba9c19d0032e60800000000000000
+      internalID: 7936187900844750466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be02d67dcf1d73f0800000000000000
+      internalID: -901529383081996620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf89217b20f6290800000000000000
+      internalID: -7895088636442903109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36da2fd697c05fa0800000000000000
+      internalID: -5813927668132161985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c6e5af53deaeb50800000000000000
+      internalID: 6623367018091277432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_65
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca02161e6da75df0800000000000000
+      internalID: -191493770811667768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754c1654145c672f0800000000000000
+      internalID: -975375385151552425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_67
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85887ca6df11d89a0800000000000000
+      internalID: -6229302929467668392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_68
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbf1a0655c5ec7a0800000000000000
+      internalID: -6355040502409987147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_69
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf3fc83f06f3ba80800000000000000
+      internalID: -8452141530406240331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843015eeb91e87c90800000000000000
+      internalID: -7171734346753047736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_71
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fe13ec5e6b41610800000000000000
+      internalID: 1591097666491772747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_72
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d378206e8ae31d110800000000000000
+      internalID: 1283876263911655229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6525d097908a3c50800000000000000
+      internalID: 6645765588596893039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_74
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cc914557d1d7300800000000000000
+      internalID: 251389543961971735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_75
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc567095c3752a30800000000000000
+      internalID: 4189882320707542225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c85785135fc6e720800000000000000
+      internalID: 2875213367873067204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_77
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e3e0d15e09c0ea0800000000000000
+      internalID: -5905185697680179633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_78
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cac4283b17e0af0800000000000000
+      internalID: -428279898754470843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_79
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07428f2f68957ae00800000000000000
+      internalID: 1055911073778508912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71469d7232623290800000000000000
+      internalID: -7912153626341654150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round_vortex_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb046d0dd93dcb40800000000000000
+      internalID: 5462085544645495735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4be0ea2c9c3689a43bf16468559ddfdc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

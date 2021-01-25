@@ -16,7 +16,7 @@ MonoBehaviour:
   damageModifier: 20
   ammoForce: 12
   cooldown: 0.75
-  shootRadius: 12.5
+  shootRadius: 7
   targetMask:
     serializedVersion: 2
     m_Bits: 256

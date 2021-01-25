@@ -341,9 +341,9 @@ TextureImporter:
       name: Interface_7
       rect:
         serializedVersion: 2
-        x: 213
+        x: 210
         y: 66
-        width: 26
+        width: 29
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

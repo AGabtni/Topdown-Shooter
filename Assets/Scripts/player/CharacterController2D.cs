@@ -1,6 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
+using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Health))]
@@ -8,8 +10,8 @@ public class CharacterController2D : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    [SerializeField] Transform characterGFX;
-    [SerializeField] Camera cam;
+    public Transform characterGFX;
+    public Camera cam;
     [SerializeField] Transform weaponHandle;
     [SerializeField] float movSpeed = 5f;
 
@@ -17,7 +19,8 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] LayerMask ignoreMask;
     [SerializeField] LayerMask targetMask;
 
-    [SerializeField] ParticleSystem deathPS;
+    [Tooltip("SFX settings")]
+    [SerializeField] EffectType deathSFX;
 
     Health health;
     Rigidbody2D body;
@@ -27,12 +30,10 @@ public class CharacterController2D : MonoBehaviour
     int spriteOrder;
     void Start()
     {
-
-
         body = GetComponent<Rigidbody2D>();
         animController = characterGFX.GetComponent<Animator>();
         health = GetComponent<Health>();
-
+        health.healthFill = GameObject.Find("Player Health Bar").GetComponentsInChildren<Image>()[1];
         spriteOrder = characterGFX.GetComponent<SpriteRenderer>().sortingOrder;
 
     }
@@ -83,7 +84,7 @@ public class CharacterController2D : MonoBehaviour
             shootTimer -= Time.deltaTime;
         if (shootTimer < 0)
             shootTimer = 0;
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !EventSystem.current.IsPointerOverGameObject())
             Shoot();
     }
 
@@ -121,8 +122,8 @@ public class CharacterController2D : MonoBehaviour
             timerActive = false;
 
 
-            Transform weapon = EquipmentManager.instance.weaponInstance;
-            GameObject bullet = weapon.GetComponent<ObjectPooler>().GetPooledObject();
+            Weapon weapon = EquipmentManager.instance.currentWeapon;
+            GameObject bullet = FindObjectsOfType<AmmoPooler>().First(pooler => pooler.ammoType == weapon.ammoType).GetPooledObject();
             bullet.GetComponent<Bullet>().SetupBullet(ignoreMask, targetMask, EquipmentManager.instance.currentWeapon.damageModifier);
             Vector2 direction = new Vector2(relativeMouseX, relativeMouseY);
             bullet.transform.position = (Vector2)weaponHandle.position + direction;
@@ -137,6 +138,7 @@ public class CharacterController2D : MonoBehaviour
             bullet.GetComponent<Rigidbody2D>().AddForce(direction * EquipmentManager.instance.currentWeapon.ammoForce, ForceMode2D.Impulse);
 
             shootTimer = EquipmentManager.instance.currentWeapon.cooldown;
+
             timerActive = true;
 
         }
@@ -184,24 +186,34 @@ public class CharacterController2D : MonoBehaviour
     {
         if (isDead) yield break;
         isDead = true;
+
+
         GetComponentInChildren<MaterialModifier>().SetTintColor(new Color(1, 1, 1, 1), 2f);
         movement = Vector2.zero;
-        
-        yield return new WaitForSeconds(1f);
-        ParticleSystem deathSFX = Instantiate(deathPS);
-        deathSFX.transform.position = transform.position;
 
-        yield return new WaitForSeconds(deathSFX.main.duration);
-        Destroy(deathSFX.gameObject);
+        //Instantiate and deactivate death effect SFX
+        GameObject sfxInstance = FindObjectsOfType<EffectPooler>()
+                    .First(pooler => pooler.effectType == deathSFX)
+                    .GetPooledObject();
+        sfxInstance.transform.position = transform.position;
+        sfxInstance.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        sfxInstance.SetActive(false);
+
+        //Tigger Game Over event
+        GameManager.Instance.OnGameOver.Invoke(false);
 
         gameObject.SetActive(false);
+
     }
+
 
 
     bool isDead;
     void OnEnable()
     {
         isDead = false;
+        GetComponent<Health>().RestoreHealth();
     }
 
     //Switch x component of gameobject scale

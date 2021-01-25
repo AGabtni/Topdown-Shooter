@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4036799875075639120}
   - component: {fileID: 5226762916180877546}
   - component: {fileID: 4036799875075639123}
-  - component: {fileID: 5611657486648073404}
+  - component: {fileID: 3225301389291543394}
   m_Layer: 9
   m_Name: Matter Ammo
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: cd49984a8c0fade478f99eeae28fe471, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -145,8 +145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be341f28d5300b419b76c5a3c6ad59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPooler: {fileID: 5611657486648073404}
---- !u!114 &5611657486648073404
+  collisionEffectType: 2
+--- !u!114 &3225301389291543394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,8 +155,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 4036799875075639132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f74ab8c1432e58d41872b70f9f78b2dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObjectPrefab: {fileID: 5061479342426312516, guid: ac29e53fd076d6d42996032b0ed80771, type: 3}
-  pooledAmount: 0
+  m_LightType: 2
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1.25
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 21300000, guid: cd49984a8c0fade478f99eeae28fe471, type: 3}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}

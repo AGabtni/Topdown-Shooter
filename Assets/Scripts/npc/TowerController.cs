@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 
 using UnityEngine;
 
@@ -8,22 +8,25 @@ using UnityEngine;
 [RequireComponent(typeof(Health))]
 public class TowerController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Tower settings")]
     [SerializeField] TowerEvolutions lastEvolution = TowerEvolutions.Evolution1;
-
     [SerializeField] GameObject towerGFX;
     [SerializeField] Tower[] towersSettings;
+    [SerializeField] private Tower currentSettings;
 
+    [Header("Shooting settings")]
 
-    [SerializeField] ObjectPooler bulletPooler;
     [SerializeField] Transform firePoint;
 
     [Tooltip("Layer masks of gameobjects that will be ignored when an attack collides with them")]
     [SerializeField] LayerMask ignoreMask;
-    [SerializeField] ParticleSystem deathPS;
+
+
+    [Header("SFX settings")]
+    [SerializeField] EffectType deathSFX;
+
     TowerEvolutions currentEvolution;
     private MaterialModifier modifier;
-    private Tower currentSettings;
     private Health health;
     private Animator towerAnimator;
 
@@ -35,6 +38,19 @@ public class TowerController : MonoBehaviour
     private float targetY;
     private float shootTimer = 0f;
 
+
+    public void SetLastEvolution(TowerEvolutions lastEvolution)
+    {
+
+        this.lastEvolution = lastEvolution;
+
+    }
+    void OnEnable()
+    {
+
+        isDead = false;
+        GetComponent<Health>().RestoreHealth();
+    }
     void Start()
     {
         health = GetComponent<Health>();
@@ -54,9 +70,8 @@ public class TowerController : MonoBehaviour
         if (!health.IsAlive())
         {
             if (currentEvolution == lastEvolution)
-            {
                 StartCoroutine(OnDeath());
-            }
+
             else
             {
                 switch (currentEvolution)
@@ -129,6 +144,7 @@ public class TowerController : MonoBehaviour
 
 
     }
+
     Tower GetTowerSettings(TowerEvolutions evolution)
     {
         foreach (var settings in towersSettings)
@@ -139,15 +155,15 @@ public class TowerController : MonoBehaviour
         return null;
     }
 
-
     Transform CheckTarget()
     {
 
         RaycastHit2D explosionHit = Physics2D.CircleCast(transform.position,
                                                         currentSettings.shootRadius,
                                                         Vector2.up,
-                                                        currentSettings.shootRadius,
+                                                        0,
                                                         currentSettings.targetMask);
+
         return explosionHit ? explosionHit.transform : null;
     }
 
@@ -165,7 +181,7 @@ public class TowerController : MonoBehaviour
         firePoint.localPosition = new Vector2(targetX * 1.5f, targetY * 1.5f);
 
         //Instantiate and set bullet
-        GameObject bullet = bulletPooler.GetPooledObject();
+        GameObject bullet = FindObjectsOfType<AmmoPooler>().First(pooler => pooler.ammoType == currentSettings.ammoType).GetPooledObject(); ;
         bullet.GetComponent<Bullet>().SetupBullet(ignoreMask, currentSettings.targetMask, currentSettings.damageModifier);
 
         //Change bullet direction and rotation
@@ -187,13 +203,25 @@ public class TowerController : MonoBehaviour
         if (isDead) yield break;
         isDead = true;
         StartCoroutine(TiltColor());
-        ParticleSystem deathSFX = Instantiate(deathPS);
-        deathSFX.transform.position = transform.position;
+        GameObject sfxInstance = FindObjectsOfType<EffectPooler>()
+                    .First(pooler => pooler.effectType == deathSFX)
+                    .GetPooledObject();
+        sfxInstance.transform.position = transform.position;
+        sfxInstance.SetActive(true);
 
-        yield return new WaitForSeconds(deathSFX.main.duration);
-        Destroy(deathSFX.gameObject);
+        yield return new WaitForSeconds(1f);
+        sfxInstance.SetActive(false);
 
         GameManager.Instance.OnMobKilled.Invoke(EnemyType.Tower);
+        //Drop Timer Powerup
+        ItemPooler itemPooler = FindObjectsOfType<ItemPooler>().ToList().First(pooler => pooler.itemType == ItemType.TimerAddOn);
+        if (itemPooler != null)
+        {
+            var item = itemPooler.GetPooledObject();
+            item.transform.position = transform.position;
+            item.SetActive(true);
+
+        }
         gameObject.SetActive(false);
     }
     //Tilts material color each 0.2s
@@ -201,16 +229,18 @@ public class TowerController : MonoBehaviour
     {
         while (true)
         {
-
             modifier.SetTintColor(new Color(1, 1, 1, 1f), 4f);
             yield return new WaitForSeconds(0.2f);
         }
     }
-    void OnEnable()
+
+
+    //Remove in PROD
+    void OnDrawGizmos()
     {
-
-        isDead = false;
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.red;
+        //Gizmos.DrawSphere(transform.position, currentSettings.shootRadius);
     }
-
 
 }

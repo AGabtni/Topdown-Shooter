@@ -34,6 +34,9 @@ public class EquipmentSlot : MonoBehaviour
         icon.enabled = true;
 
         icon.sprite = item.defaulSprite;
+        icon.SetNativeSize();
+        icon.rectTransform.sizeDelta /= 2.5f;
+
         onItemUsed.Invoke();
 
     }

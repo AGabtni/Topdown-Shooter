@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 054f62298489cac41a65ca7118677c6e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2687991614741494406
+    second: RPGui_free_0
+  - first:
+      213: 8630563495787501093
+    second: RPGui_free_1
+  - first:
+      213: -5718213310684485215
+    second: RPGui_free_2
+  - first:
+      213: 1119989337233436149
+    second: RPGui_free_3
+  - first:
+      213: -4421723154849944571
+    second: RPGui_free_4
+  - first:
+      213: -4309667617397149081
+    second: RPGui_free_5
+  - first:
+      213: 6737949819560768482
+    second: RPGui_free_6
+  - first:
+      213: 4982714454581867755
+    second: RPGui_free_7
+  - first:
+      213: 4927627341461074893
+    second: RPGui_free_8
+  - first:
+      213: -1589177296709060096
+    second: RPGui_free_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,11 +165,200 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RPGui_free_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a35ebc12aad4520800000000000000
+      internalID: 2687991614741494406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5261ed1d5cbe5c770800000000000000
+      internalID: 8630563495787501093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9adb25a43d4a0b0800000000000000
+      internalID: -5718213310684485215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 21
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd26064e500b8f00800000000000000
+      internalID: 1119989337233436149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cac0cc732e2a2c0800000000000000
+      internalID: -4421723154849944571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f905b22cf034c0800000000000000
+      internalID: -4309667617397149081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3b35569a1028d50800000000000000
+      internalID: 6737949819560768482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc33a4995f2726440800000000000000
+      internalID: 4927627341461074893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPGui_free_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 54
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a7a802bab12f9e0800000000000000
+      internalID: -1589177296709060096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7252fbb627b649e4a9ff6e494218232a
     internalID: 0
     vertices: []
     indices: 

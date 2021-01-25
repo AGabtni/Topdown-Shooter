@@ -25,7 +25,7 @@
 
 # Visual Code cache directory
 .vscode/
-
+*.vscode
 # Gradle cache directory
 .gradle/
 
@@ -74,3 +74,4 @@ crashlytics-build.properties
 
 /[Aa]ssets/Artwork/Packages
 /AstarPathfindingProject/ExampleScenes
+/Build/*

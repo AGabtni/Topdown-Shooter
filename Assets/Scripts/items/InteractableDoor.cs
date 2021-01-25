@@ -45,8 +45,9 @@ public class InteractableDoor : Interactable
 
         if (IsInteractiveAgent(col.gameObject.layer) && !hasInteracted)
         {
-            StartCoroutine(OnDoorEnter(col.gameObject.transform));
+            StartCoroutine(OnDoorEnter(col.gameObject.transform.root));
         }
+        
     }
 
 

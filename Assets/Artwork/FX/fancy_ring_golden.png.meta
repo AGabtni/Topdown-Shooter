@@ -1,0 +1,1813 @@
+fileFormatVersion: 2
+guid: 9d2e580bbc96dc54fbfa117cbcebd5a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3276189517179449504
+    second: fancy_ring_golden_0
+  - first:
+      213: 1217235995376847856
+    second: fancy_ring_golden_1
+  - first:
+      213: -6503628208470028540
+    second: fancy_ring_golden_2
+  - first:
+      213: -3469390597686102085
+    second: fancy_ring_golden_3
+  - first:
+      213: 4422814858577722724
+    second: fancy_ring_golden_4
+  - first:
+      213: 4643746951681064911
+    second: fancy_ring_golden_5
+  - first:
+      213: -5715802294961291439
+    second: fancy_ring_golden_6
+  - first:
+      213: 5581547541338014111
+    second: fancy_ring_golden_7
+  - first:
+      213: 2668686845124576885
+    second: fancy_ring_golden_8
+  - first:
+      213: -8161205599745259779
+    second: fancy_ring_golden_9
+  - first:
+      213: 6327128853507343895
+    second: fancy_ring_golden_10
+  - first:
+      213: -7798529742661179106
+    second: fancy_ring_golden_11
+  - first:
+      213: -4284589484493811457
+    second: fancy_ring_golden_12
+  - first:
+      213: 7371701548307278623
+    second: fancy_ring_golden_13
+  - first:
+      213: -8382598592393016019
+    second: fancy_ring_golden_14
+  - first:
+      213: 3269079380365751735
+    second: fancy_ring_golden_15
+  - first:
+      213: 9048486271127870928
+    second: fancy_ring_golden_16
+  - first:
+      213: 2652438089802777595
+    second: fancy_ring_golden_17
+  - first:
+      213: 8067865367767634293
+    second: fancy_ring_golden_18
+  - first:
+      213: 3596169201798056158
+    second: fancy_ring_golden_19
+  - first:
+      213: -5116166810307883777
+    second: fancy_ring_golden_20
+  - first:
+      213: -2441172869089644619
+    second: fancy_ring_golden_21
+  - first:
+      213: 5931786932636839605
+    second: fancy_ring_golden_22
+  - first:
+      213: 3989309539383499027
+    second: fancy_ring_golden_23
+  - first:
+      213: 7082272289761391575
+    second: fancy_ring_golden_24
+  - first:
+      213: -2099798449445767550
+    second: fancy_ring_golden_25
+  - first:
+      213: 2683798844971700557
+    second: fancy_ring_golden_26
+  - first:
+      213: 2649831755688046475
+    second: fancy_ring_golden_27
+  - first:
+      213: -8716761950868942551
+    second: fancy_ring_golden_28
+  - first:
+      213: -793966682127985705
+    second: fancy_ring_golden_29
+  - first:
+      213: -5682104865005177930
+    second: fancy_ring_golden_30
+  - first:
+      213: -4396841498696569010
+    second: fancy_ring_golden_31
+  - first:
+      213: 9092097936124749530
+    second: fancy_ring_golden_32
+  - first:
+      213: 8374980795964876868
+    second: fancy_ring_golden_33
+  - first:
+      213: -5037525791161069588
+    second: fancy_ring_golden_34
+  - first:
+      213: 9062965990696157876
+    second: fancy_ring_golden_35
+  - first:
+      213: -4096599130161842986
+    second: fancy_ring_golden_36
+  - first:
+      213: -7159966285228116985
+    second: fancy_ring_golden_37
+  - first:
+      213: -7236101207520559490
+    second: fancy_ring_golden_38
+  - first:
+      213: -8840046300649493614
+    second: fancy_ring_golden_39
+  - first:
+      213: 7205463281934054536
+    second: fancy_ring_golden_40
+  - first:
+      213: 6987982038560182536
+    second: fancy_ring_golden_41
+  - first:
+      213: -1196370819750160605
+    second: fancy_ring_golden_42
+  - first:
+      213: 3062961339277703330
+    second: fancy_ring_golden_43
+  - first:
+      213: 1704632048323897916
+    second: fancy_ring_golden_44
+  - first:
+      213: 8844444794386586874
+    second: fancy_ring_golden_45
+  - first:
+      213: 8143146025664869253
+    second: fancy_ring_golden_46
+  - first:
+      213: -4163954580812425867
+    second: fancy_ring_golden_47
+  - first:
+      213: -6779460183625893500
+    second: fancy_ring_golden_48
+  - first:
+      213: 3753891091399414773
+    second: fancy_ring_golden_49
+  - first:
+      213: 8515382191657627551
+    second: fancy_ring_golden_50
+  - first:
+      213: 3874295403668313743
+    second: fancy_ring_golden_51
+  - first:
+      213: -6790701844957128790
+    second: fancy_ring_golden_52
+  - first:
+      213: 680851989595262044
+    second: fancy_ring_golden_53
+  - first:
+      213: 46662374128142187
+    second: fancy_ring_golden_54
+  - first:
+      213: -3377703111245922003
+    second: fancy_ring_golden_55
+  - first:
+      213: 782903657368519833
+    second: fancy_ring_golden_56
+  - first:
+      213: 8099688535095904813
+    second: fancy_ring_golden_57
+  - first:
+      213: -2613935055084524916
+    second: fancy_ring_golden_58
+  - first:
+      213: -698711418056817461
+    second: fancy_ring_golden_59
+  - first:
+      213: 781608257753419753
+    second: fancy_ring_golden_60
+  - first:
+      213: -7394146807941867452
+    second: fancy_ring_golden_61
+  - first:
+      213: 1860424476158970694
+    second: fancy_ring_golden_62
+  - first:
+      213: -4420841111920431198
+    second: fancy_ring_golden_63
+  - first:
+      213: -9221762005502520179
+    second: fancy_ring_golden_64
+  - first:
+      213: -7313243913873124317
+    second: fancy_ring_golden_65
+  - first:
+      213: 3512221835700589275
+    second: fancy_ring_golden_66
+  - first:
+      213: -7262670173030878793
+    second: fancy_ring_golden_67
+  - first:
+      213: 3400028682744921609
+    second: fancy_ring_golden_68
+  - first:
+      213: -4203458335403737380
+    second: fancy_ring_golden_69
+  - first:
+      213: -6075649120737377377
+    second: fancy_ring_golden_70
+  - first:
+      213: -8303489551355675510
+    second: fancy_ring_golden_71
+  - first:
+      213: -5839425657806912325
+    second: fancy_ring_golden_72
+  - first:
+      213: 8650901650369791701
+    second: fancy_ring_golden_73
+  - first:
+      213: -8973485799189643112
+    second: fancy_ring_golden_74
+  - first:
+      213: 1610503725307261223
+    second: fancy_ring_golden_75
+  - first:
+      213: 7946650709246932425
+    second: fancy_ring_golden_76
+  - first:
+      213: 2698829188257798082
+    second: fancy_ring_golden_77
+  - first:
+      213: -8434767423491991147
+    second: fancy_ring_golden_78
+  - first:
+      213: 6822330363196344333
+    second: fancy_ring_golden_79
+  - first:
+      213: 6170458714163938637
+    second: fancy_ring_golden_80
+  - first:
+      213: 6765640883705778039
+    second: fancy_ring_golden_81
+  - first:
+      213: -5551564867519252707
+    second: fancy_ring_golden_82
+  - first:
+      213: 7798744566195007012
+    second: fancy_ring_golden_83
+  - first:
+      213: 290128121650529345
+    second: fancy_ring_golden_84
+  - first:
+      213: 6684500566287121455
+    second: fancy_ring_golden_85
+  - first:
+      213: -6774096284152287048
+    second: fancy_ring_golden_86
+  - first:
+      213: -4833885050781601240
+    second: fancy_ring_golden_87
+  - first:
+      213: -1958046400708320946
+    second: fancy_ring_golden_88
+  - first:
+      213: 3150964269556331541
+    second: fancy_ring_golden_89
+  - first:
+      213: 828398365335195840
+    second: fancy_ring_golden_90
+  - first:
+      213: 3956634784327184429
+    second: fancy_ring_golden_91
+  - first:
+      213: -3800221881390710205
+    second: fancy_ring_golden_92
+  - first:
+      213: 956242692024880771
+    second: fancy_ring_golden_93
+  - first:
+      213: -1118924920068666015
+    second: fancy_ring_golden_94
+  - first:
+      213: -327843122237957923
+    second: fancy_ring_golden_95
+  - first:
+      213: 8007034880208765580
+    second: fancy_ring_golden_96
+  - first:
+      213: 5366667461853837847
+    second: fancy_ring_golden_97
+  - first:
+      213: -7198795730588807505
+    second: fancy_ring_golden_98
+  - first:
+      213: 551184749019130127
+    second: fancy_ring_golden_99
+  - first:
+      213: -4149338748598904311
+    second: fancy_ring_golden_100
+  - first:
+      213: -3223346358295425189
+    second: fancy_ring_golden_101
+  - first:
+      213: -7271868177753403407
+    second: fancy_ring_golden_102
+  - first:
+      213: -3558920288259719493
+    second: fancy_ring_golden_103
+  - first:
+      213: -3107521555650025714
+    second: fancy_ring_golden_0
+  - first:
+      213: -2452045991333183181
+    second: fancy_ring_golden_1
+  - first:
+      213: -1644068005526590784
+    second: fancy_ring_golden_2
+  - first:
+      213: 9195736561524576333
+    second: fancy_ring_golden_3
+  - first:
+      213: -6128704243123991522
+    second: fancy_ring_golden_4
+  - first:
+      213: -5415989295676377829
+    second: fancy_ring_golden_5
+  - first:
+      213: -8348284283331420368
+    second: fancy_ring_golden_6
+  - first:
+      213: -7219854188098734607
+    second: fancy_ring_golden_7
+  - first:
+      213: 1842628133149099471
+    second: fancy_ring_golden_8
+  - first:
+      213: 7868382555239930821
+    second: fancy_ring_golden_9
+  - first:
+      213: -7588245859291400195
+    second: fancy_ring_golden_10
+  - first:
+      213: -2648634651165322721
+    second: fancy_ring_golden_11
+  - first:
+      213: -3784987379136185581
+    second: fancy_ring_golden_12
+  - first:
+      213: -521831483649346501
+    second: fancy_ring_golden_13
+  - first:
+      213: 238660582725859366
+    second: fancy_ring_golden_14
+  - first:
+      213: -5648312913613659483
+    second: fancy_ring_golden_15
+  - first:
+      213: -997277511734449761
+    second: fancy_ring_golden_16
+  - first:
+      213: -2619814339905217957
+    second: fancy_ring_golden_17
+  - first:
+      213: -8310706907532511366
+    second: fancy_ring_golden_18
+  - first:
+      213: 8161605796557816836
+    second: fancy_ring_golden_19
+  - first:
+      213: -2983286262218691587
+    second: fancy_ring_golden_20
+  - first:
+      213: 2926135133123883253
+    second: fancy_ring_golden_21
+  - first:
+      213: -7905861572496391580
+    second: fancy_ring_golden_22
+  - first:
+      213: -127402176068055274
+    second: fancy_ring_golden_23
+  - first:
+      213: 8195073424259657553
+    second: fancy_ring_golden_24
+  - first:
+      213: -1046139252838731040
+    second: fancy_ring_golden_25
+  - first:
+      213: -4926306118848130708
+    second: fancy_ring_golden_26
+  - first:
+      213: 4500354677720337742
+    second: fancy_ring_golden_27
+  - first:
+      213: 4024162290160970256
+    second: fancy_ring_golden_28
+  - first:
+      213: 1733351493370110776
+    second: fancy_ring_golden_29
+  - first:
+      213: -8300851589834836339
+    second: fancy_ring_golden_30
+  - first:
+      213: -2276421692494394236
+    second: fancy_ring_golden_31
+  - first:
+      213: -2531983256031501549
+    second: fancy_ring_golden_32
+  - first:
+      213: -8932053935593022649
+    second: fancy_ring_golden_33
+  - first:
+      213: -7837788352398628063
+    second: fancy_ring_golden_34
+  - first:
+      213: 6563680260095586534
+    second: fancy_ring_golden_35
+  - first:
+      213: -4986664838492485756
+    second: fancy_ring_golden_36
+  - first:
+      213: -6453488682116132876
+    second: fancy_ring_golden_37
+  - first:
+      213: 310703513648715785
+    second: fancy_ring_golden_38
+  - first:
+      213: 2114149589506819539
+    second: fancy_ring_golden_39
+  - first:
+      213: -8006259013526014153
+    second: fancy_ring_golden_40
+  - first:
+      213: 3630763929199858525
+    second: fancy_ring_golden_41
+  - first:
+      213: -5073455152289176720
+    second: fancy_ring_golden_42
+  - first:
+      213: -6108417092468008823
+    second: fancy_ring_golden_43
+  - first:
+      213: 6514499616442567230
+    second: fancy_ring_golden_44
+  - first:
+      213: 8646960648823554371
+    second: fancy_ring_golden_45
+  - first:
+      213: 3922346889097756499
+    second: fancy_ring_golden_46
+  - first:
+      213: -5942043767844135525
+    second: fancy_ring_golden_47
+  - first:
+      213: 3305499355840452108
+    second: fancy_ring_golden_48
+  - first:
+      213: -741293376901475412
+    second: fancy_ring_golden_49
+  - first:
+      213: -1972828325532266785
+    second: fancy_ring_golden_50
+  - first:
+      213: -2287300269693616607
+    second: fancy_ring_golden_51
+  - first:
+      213: 6140003241806024714
+    second: fancy_ring_golden_52
+  - first:
+      213: 6094847487581035040
+    second: fancy_ring_golden_53
+  - first:
+      213: 2675375013183163998
+    second: fancy_ring_golden_54
+  - first:
+      213: 1793455909688982805
+    second: fancy_ring_golden_55
+  - first:
+      213: -5349428670693942062
+    second: fancy_ring_golden_56
+  - first:
+      213: 3671191618656510447
+    second: fancy_ring_golden_57
+  - first:
+      213: 6004042146963655297
+    second: fancy_ring_golden_58
+  - first:
+      213: 5288259740624806350
+    second: fancy_ring_golden_59
+  - first:
+      213: 5458206707825828745
+    second: fancy_ring_golden_60
+  - first:
+      213: 9035172103227892765
+    second: fancy_ring_golden_61
+  - first:
+      213: -3496016771440889522
+    second: fancy_ring_golden_62
+  - first:
+      213: 5721766367035276518
+    second: fancy_ring_golden_63
+  - first:
+      213: -2813844451882364239
+    second: fancy_ring_golden_64
+  - first:
+      213: 1089592041712182631
+    second: fancy_ring_golden_65
+  - first:
+      213: 3673771867201398702
+    second: fancy_ring_golden_66
+  - first:
+      213: -5285002518504340391
+    second: fancy_ring_golden_67
+  - first:
+      213: -7275288700096433712
+    second: fancy_ring_golden_68
+  - first:
+      213: -2963313437758173936
+    second: fancy_ring_golden_69
+  - first:
+      213: 4882646250677131019
+    second: fancy_ring_golden_70
+  - first:
+      213: -4554191592555574233
+    second: fancy_ring_golden_71
+  - first:
+      213: -5345551113946953106
+    second: fancy_ring_golden_72
+  - first:
+      213: -5690471289899313177
+    second: fancy_ring_golden_73
+  - first:
+      213: 8811936375998278982
+    second: fancy_ring_golden_74
+  - first:
+      213: 489082696479421186
+    second: fancy_ring_golden_75
+  - first:
+      213: -6648294717642240052
+    second: fancy_ring_golden_76
+  - first:
+      213: -5411891285759966826
+    second: fancy_ring_golden_77
+  - first:
+      213: -4555042098667109021
+    second: fancy_ring_golden_78
+  - first:
+      213: 3377361970227707437
+    second: fancy_ring_golden_79
+  - first:
+      213: -5735861072503386913
+    second: fancy_ring_golden_80
+  - first:
+      213: -1906098599907889289
+    second: fancy_ring_golden_81
+  - first:
+      213: 7322485262563803919
+    second: fancy_ring_golden_82
+  - first:
+      213: -3594067239691995271
+    second: fancy_ring_golden_83
+  - first:
+      213: 7799621900275238159
+    second: fancy_ring_golden_84
+  - first:
+      213: 5218555346225547496
+    second: fancy_ring_golden_85
+  - first:
+      213: 3193190664712786379
+    second: fancy_ring_golden_86
+  - first:
+      213: 7815876244861253770
+    second: fancy_ring_golden_87
+  - first:
+      213: -1738095085552845724
+    second: fancy_ring_golden_88
+  - first:
+      213: 7365897396110054896
+    second: fancy_ring_golden_89
+  - first:
+      213: 6766393548451144369
+    second: fancy_ring_golden_90
+  - first:
+      213: 7577148777249013208
+    second: fancy_ring_golden_91
+  - first:
+      213: 2346417238579159485
+    second: fancy_ring_golden_92
+  - first:
+      213: 6520221036652685442
+    second: fancy_ring_golden_93
+  - first:
+      213: -4146856070333274236
+    second: fancy_ring_golden_94
+  - first:
+      213: 7087875732422303057
+    second: fancy_ring_golden_95
+  - first:
+      213: 590024645267524104
+    second: fancy_ring_golden_96
+  - first:
+      213: 8458509105159304984
+    second: fancy_ring_golden_97
+  - first:
+      213: 6421964834488541763
+    second: fancy_ring_golden_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fancy_ring_golden_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e076c970c9ddfd4d0800000000000000
+      internalID: -3107521555650025714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314aa1992598fdd0800000000000000
+      internalID: -2452045991333183181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caa0001cd81f29e0800000000000000
+      internalID: -1644068005526590784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d409ebd7ea1dd9f70800000000000000
+      internalID: 9195736561524576333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c4a2f46f772faa0800000000000000
+      internalID: -6128704243123991522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1534e34e6a86d4b0800000000000000
+      internalID: -5415989295676377829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fdd08ecafe42c80800000000000000
+      internalID: -8348284283331420368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5324c4edcedcb90800000000000000
+      internalID: -7219854188098734607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54e714684529910800000000000000
+      internalID: 1842628133149099471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbd4f9de3c123d60800000000000000
+      internalID: 7868382555239930821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77b90689221b690800000000000000
+      internalID: -7588245859291400195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12108d51d82e3bd0800000000000000
+      internalID: -2648634651165322721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b304b4806097bc0800000000000000
+      internalID: -3784987379136185581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b343778c70512c8f0800000000000000
+      internalID: -521831483649346501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62833471984ef4300800000000000000
+      internalID: 238660582725859366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a26ec3c4592d91b0800000000000000
+      internalID: -5648312913613659483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99259a0365f822f0800000000000000
+      internalID: -997277511734449761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a997cfcbc84abd0800000000000000
+      internalID: -2619814339905217957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b32089107aac80800000000000000
+      internalID: -8310706907532511366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404099cda39d34170800000000000000
+      internalID: 8161605796557816836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbe62d53fc3996d0800000000000000
+      internalID: -2983286262218691587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b3a67668bb9820800000000000000
+      internalID: 2926135133123883253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46201ff69ccb84290800000000000000
+      internalID: -7905861572496391580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f0ad755606b3ef0800000000000000
+      internalID: -127402176068055274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fad392cdfbab170800000000000000
+      internalID: 8195073424259657553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e274f864ed5b71f0800000000000000
+      internalID: -1046139252838731040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6159338fae32abb0800000000000000
+      internalID: -4926306118848130708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc9c84cb8747e30800000000000000
+      internalID: 4500354677720337742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a219f2842b8d730800000000000000
+      internalID: 4024162290160970256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833e731eff91e0810800000000000000
+      internalID: 1733351493370110776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8678a675737dcc80800000000000000
+      internalID: -8300851589834836339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cc0eb18868860e0800000000000000
+      internalID: -2276421692494394236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3136107c4a69cdcd0800000000000000
+      internalID: -2531983256031501549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b19560548fa0480800000000000000
+      internalID: -8932053935593022649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12be59615059a3390800000000000000
+      internalID: -7837788352398628063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0bd32bb60e61b50800000000000000
+      internalID: 6563680260095586534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48789b7ffbecbcab0800000000000000
+      internalID: -4986664838492485756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffc6745c3a9076a0800000000000000
+      internalID: -6453488682116132876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9085f711337df4400800000000000000
+      internalID: 310703513648715785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_39
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58794b9d7f65d10800000000000000
+      internalID: 2114149589506819539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737330f98dd04e090800000000000000
+      internalID: -8006259013526014153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5352479e80136230800000000000000
+      internalID: 3630763929199858525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073ade75b677799b0800000000000000
+      internalID: -5073455152289176720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9881587a40b8a3ba0800000000000000
+      internalID: -6108417092468008823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a4a77c2e6286a50800000000000000
+      internalID: 6514499616442567230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c8e385ec200870800000000000000
+      internalID: 8646960648823554371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fb782d6b9fe6630800000000000000
+      internalID: 3922346889097756499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d93d9ecae998da0800000000000000
+      internalID: -5942043767844135525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06172e962e7fdd20800000000000000
+      internalID: 3305499355840452108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fancy_ring_golden_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3107be99566b5f0800000000000000
+      internalID: -741293376901475412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e9e0d43e50a0fe4db4438ab00b3148a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

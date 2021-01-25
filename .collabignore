@@ -24,10 +24,11 @@ ehthumbs.db
 *.user
 *.unityproj
 *.booproj
-
+*.vscode
 # Unity generated
 # ===============
 [Oo]bj/
 [Bb]uild
 sysinfo.txt
 *.stackdump
+*.meta

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evolution: 0
   damageModifier: 20
+  ammoType: 1
   ammoForce: 10
   cooldown: 1
-  shootRadius: 10
+  shootRadius: 5
   targetMask:
     serializedVersion: 2
     m_Bits: 256

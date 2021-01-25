@@ -1,0 +1,2179 @@
+fileFormatVersion: 2
+guid: e16c2d1735dfcfc4ca0152d578e6c057
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4991124090343892676
+    second: dd_waterfall_sheet_0
+  - first:
+      213: 7328299382165340779
+    second: dd_waterfall_sheet_1
+  - first:
+      213: -8989817667979140352
+    second: dd_waterfall_sheet_2
+  - first:
+      213: 3932840819734095307
+    second: dd_waterfall_sheet_3
+  - first:
+      213: -69285578617989241
+    second: dd_waterfall_sheet_4
+  - first:
+      213: -6748856335704823577
+    second: dd_waterfall_sheet_5
+  - first:
+      213: -8812862047103875916
+    second: dd_waterfall_sheet_6
+  - first:
+      213: -4911486600945014361
+    second: dd_waterfall_sheet_7
+  - first:
+      213: 2142613410927089985
+    second: dd_waterfall_sheet_8
+  - first:
+      213: 8739271936440244458
+    second: dd_waterfall_sheet_9
+  - first:
+      213: 8439818334196593859
+    second: dd_waterfall_sheet_10
+  - first:
+      213: 6208514109637068661
+    second: dd_waterfall_sheet_11
+  - first:
+      213: 5585545852472912859
+    second: dd_waterfall_sheet_12
+  - first:
+      213: -8951519361968450108
+    second: dd_waterfall_sheet_13
+  - first:
+      213: -7481776687612089090
+    second: dd_waterfall_sheet_14
+  - first:
+      213: -7307673008580984162
+    second: dd_waterfall_sheet_15
+  - first:
+      213: 3023917408706512140
+    second: dd_waterfall_sheet_16
+  - first:
+      213: -3028956621337007315
+    second: dd_waterfall_sheet_17
+  - first:
+      213: -7162175909493140712
+    second: dd_waterfall_sheet_18
+  - first:
+      213: 3767822865921104952
+    second: dd_waterfall_sheet_19
+  - first:
+      213: 2217993849248876985
+    second: dd_waterfall_sheet_20
+  - first:
+      213: 1602079197548206039
+    second: dd_waterfall_sheet_21
+  - first:
+      213: 8419854109657655764
+    second: dd_waterfall_sheet_22
+  - first:
+      213: 8157693237577074836
+    second: dd_waterfall_sheet_23
+  - first:
+      213: -683927272201639735
+    second: dd_waterfall_sheet_24
+  - first:
+      213: 8244961213556501246
+    second: dd_waterfall_sheet_25
+  - first:
+      213: -487602722538641402
+    second: dd_waterfall_sheet_26
+  - first:
+      213: -868189550388490114
+    second: dd_waterfall_sheet_27
+  - first:
+      213: -6753823059058002512
+    second: dd_waterfall_sheet_28
+  - first:
+      213: 5835011059008316664
+    second: dd_waterfall_sheet_29
+  - first:
+      213: 3235756462548753408
+    second: dd_waterfall_sheet_30
+  - first:
+      213: -4718674510404019423
+    second: dd_waterfall_sheet_31
+  - first:
+      213: 8330526894055899913
+    second: dd_waterfall_sheet_32
+  - first:
+      213: 2782964911970807342
+    second: dd_waterfall_sheet_33
+  - first:
+      213: -9058196993984574146
+    second: dd_waterfall_sheet_34
+  - first:
+      213: 2128926840797250611
+    second: dd_waterfall_sheet_35
+  - first:
+      213: -457876411416929999
+    second: dd_waterfall_sheet_36
+  - first:
+      213: 1717843270814617439
+    second: dd_waterfall_sheet_37
+  - first:
+      213: -6389253703710667973
+    second: dd_waterfall_sheet_38
+  - first:
+      213: 9109253240214611363
+    second: dd_waterfall_sheet_39
+  - first:
+      213: -600956201017040806
+    second: dd_waterfall_sheet_40
+  - first:
+      213: -3920899758937159256
+    second: dd_waterfall_sheet_41
+  - first:
+      213: -3625498565470803303
+    second: dd_waterfall_sheet_42
+  - first:
+      213: 959031471309386439
+    second: dd_waterfall_sheet_43
+  - first:
+      213: 1984624312693213820
+    second: dd_waterfall_sheet_44
+  - first:
+      213: -1583253267493209157
+    second: dd_waterfall_sheet_45
+  - first:
+      213: 1885718196569520308
+    second: dd_waterfall_sheet_46
+  - first:
+      213: -7142228530013206270
+    second: dd_waterfall_sheet_47
+  - first:
+      213: 4703687480639390469
+    second: dd_waterfall_sheet_48
+  - first:
+      213: 7774125950769181730
+    second: dd_waterfall_sheet_49
+  - first:
+      213: 5603938219181931149
+    second: dd_waterfall_sheet_50
+  - first:
+      213: -1876222619190684059
+    second: dd_waterfall_sheet_51
+  - first:
+      213: -6936438620666524012
+    second: dd_waterfall_sheet_52
+  - first:
+      213: -8411160740117967269
+    second: dd_waterfall_sheet_53
+  - first:
+      213: 7546570219941621344
+    second: dd_waterfall_sheet_54
+  - first:
+      213: -1653390170832383310
+    second: dd_waterfall_sheet_55
+  - first:
+      213: 8652681250364234714
+    second: dd_waterfall_sheet_56
+  - first:
+      213: 5322061895355133623
+    second: dd_waterfall_sheet_57
+  - first:
+      213: -2350913488186267894
+    second: dd_waterfall_sheet_58
+  - first:
+      213: 5883381123040366965
+    second: dd_waterfall_sheet_59
+  - first:
+      213: -5683540407367123678
+    second: dd_waterfall_sheet_60
+  - first:
+      213: -4143179092412810949
+    second: dd_waterfall_sheet_61
+  - first:
+      213: 7697030729366526526
+    second: dd_waterfall_sheet_62
+  - first:
+      213: -1929214900094992310
+    second: dd_waterfall_sheet_63
+  - first:
+      213: -2701813397697154182
+    second: dd_waterfall_sheet_64
+  - first:
+      213: 5192560499748232458
+    second: dd_waterfall_sheet_65
+  - first:
+      213: -2855327561348814461
+    second: dd_waterfall_sheet_66
+  - first:
+      213: -8369169325732622386
+    second: dd_waterfall_sheet_67
+  - first:
+      213: 8018307356931488846
+    second: dd_waterfall_sheet_68
+  - first:
+      213: 7678649697114276926
+    second: dd_waterfall_sheet_69
+  - first:
+      213: -207216494448310326
+    second: dd_waterfall_sheet_70
+  - first:
+      213: 4587978453802426082
+    second: dd_waterfall_sheet_71
+  - first:
+      213: 1835920232715196834
+    second: dd_waterfall_sheet_72
+  - first:
+      213: -6431139409035442555
+    second: dd_waterfall_sheet_73
+  - first:
+      213: -866801233241373230
+    second: dd_waterfall_sheet_74
+  - first:
+      213: 6067040304948095682
+    second: dd_waterfall_sheet_0
+  - first:
+      213: 7072710115440971749
+    second: dd_waterfall_sheet_1
+  - first:
+      213: 520282025953039259
+    second: dd_waterfall_sheet_2
+  - first:
+      213: -8640171237318977795
+    second: dd_waterfall_sheet_3
+  - first:
+      213: -792573550876336101
+    second: dd_waterfall_sheet_4
+  - first:
+      213: -3149369391473401786
+    second: dd_waterfall_sheet_5
+  - first:
+      213: -1616440268342743075
+    second: dd_waterfall_sheet_6
+  - first:
+      213: 1268143328098696071
+    second: dd_waterfall_sheet_7
+  - first:
+      213: 5095660449038739958
+    second: dd_waterfall_sheet_8
+  - first:
+      213: 447205333828553741
+    second: dd_waterfall_sheet_9
+  - first:
+      213: 3054488188111089022
+    second: dd_waterfall_sheet_10
+  - first:
+      213: 8913248639971490017
+    second: dd_waterfall_sheet_11
+  - first:
+      213: -7365611674863747963
+    second: dd_waterfall_sheet_12
+  - first:
+      213: -2487806165578847496
+    second: dd_waterfall_sheet_13
+  - first:
+      213: 9006352038412083013
+    second: dd_waterfall_sheet_14
+  - first:
+      213: -7545443633893053437
+    second: dd_waterfall_sheet_15
+  - first:
+      213: 4634506723487741664
+    second: dd_waterfall_sheet_16
+  - first:
+      213: -7091853466346982133
+    second: dd_waterfall_sheet_17
+  - first:
+      213: -6012186725691458961
+    second: dd_waterfall_sheet_18
+  - first:
+      213: -4182953411429270238
+    second: dd_waterfall_sheet_19
+  - first:
+      213: 5497818810467057672
+    second: dd_waterfall_sheet_20
+  - first:
+      213: -4894450448768215871
+    second: dd_waterfall_sheet_21
+  - first:
+      213: -1390286144772628160
+    second: dd_waterfall_sheet_22
+  - first:
+      213: 7796779143486497148
+    second: dd_waterfall_sheet_23
+  - first:
+      213: -3858987375599926713
+    second: dd_waterfall_sheet_24
+  - first:
+      213: 5926887545779608620
+    second: dd_waterfall_sheet_25
+  - first:
+      213: 6750283812849777354
+    second: dd_waterfall_sheet_26
+  - first:
+      213: 7448910305293183702
+    second: dd_waterfall_sheet_27
+  - first:
+      213: -3344002200060382354
+    second: dd_waterfall_sheet_28
+  - first:
+      213: -5383215409586520051
+    second: dd_waterfall_sheet_29
+  - first:
+      213: -7639660416349180547
+    second: dd_waterfall_sheet_30
+  - first:
+      213: -3649653990726944499
+    second: dd_waterfall_sheet_31
+  - first:
+      213: -4459389026665335538
+    second: dd_waterfall_sheet_32
+  - first:
+      213: -6564886702313697183
+    second: dd_waterfall_sheet_33
+  - first:
+      213: 4193493832833702446
+    second: dd_waterfall_sheet_34
+  - first:
+      213: -1632493878158324586
+    second: dd_waterfall_sheet_35
+  - first:
+      213: -6395305538114136783
+    second: dd_waterfall_sheet_36
+  - first:
+      213: 7748713721122533413
+    second: dd_waterfall_sheet_37
+  - first:
+      213: -2001757987532058941
+    second: dd_waterfall_sheet_38
+  - first:
+      213: -7559994228752037383
+    second: dd_waterfall_sheet_39
+  - first:
+      213: 4884470589780554724
+    second: dd_waterfall_sheet_40
+  - first:
+      213: -4249760719853969335
+    second: dd_waterfall_sheet_41
+  - first:
+      213: -2691828317518198458
+    second: dd_waterfall_sheet_42
+  - first:
+      213: 3635608799621731543
+    second: dd_waterfall_sheet_43
+  - first:
+      213: -4886286213327682007
+    second: dd_waterfall_sheet_44
+  - first:
+      213: 4384336484014700874
+    second: dd_waterfall_sheet_45
+  - first:
+      213: 8050914856390727978
+    second: dd_waterfall_sheet_46
+  - first:
+      213: -7770074420804581472
+    second: dd_waterfall_sheet_47
+  - first:
+      213: 2967345363916191122
+    second: dd_waterfall_sheet_48
+  - first:
+      213: -6373245588691976601
+    second: dd_waterfall_sheet_49
+  - first:
+      213: -7857340569178753388
+    second: dd_waterfall_sheet_50
+  - first:
+      213: 4218731289046391309
+    second: dd_waterfall_sheet_51
+  - first:
+      213: 1104552236041556621
+    second: dd_waterfall_sheet_52
+  - first:
+      213: -5822579282364495129
+    second: dd_waterfall_sheet_53
+  - first:
+      213: 4989393724051865874
+    second: dd_waterfall_sheet_54
+  - first:
+      213: -1694816947339420494
+    second: dd_waterfall_sheet_55
+  - first:
+      213: 7141030027769471195
+    second: dd_waterfall_sheet_56
+  - first:
+      213: -2167262612586028558
+    second: dd_waterfall_sheet_57
+  - first:
+      213: 262205608530751602
+    second: dd_waterfall_sheet_58
+  - first:
+      213: 112966789421715052
+    second: dd_waterfall_sheet_59
+  - first:
+      213: 952600658646144801
+    second: dd_waterfall_sheet_60
+  - first:
+      213: 4589623909133151743
+    second: dd_waterfall_sheet_61
+  - first:
+      213: 2113628196757329395
+    second: dd_waterfall_sheet_62
+  - first:
+      213: -3323015943883221491
+    second: dd_waterfall_sheet_63
+  - first:
+      213: -6352052897389557099
+    second: dd_waterfall_sheet_64
+  - first:
+      213: 1408697580239982372
+    second: dd_waterfall_sheet_65
+  - first:
+      213: -4746099762578455261
+    second: dd_waterfall_sheet_66
+  - first:
+      213: 5651910433092632772
+    second: dd_waterfall_sheet_67
+  - first:
+      213: -1804091121654739391
+    second: dd_waterfall_sheet_68
+  - first:
+      213: 7282546700044662117
+    second: dd_waterfall_sheet_69
+  - first:
+      213: -2717838499103527117
+    second: dd_waterfall_sheet_70
+  - first:
+      213: -4524447415048023942
+    second: dd_waterfall_sheet_71
+  - first:
+      213: -2295330145845046378
+    second: dd_waterfall_sheet_72
+  - first:
+      213: 8461884646271023971
+    second: dd_waterfall_sheet_73
+  - first:
+      213: -4933479857383353870
+    second: dd_waterfall_sheet_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa8664305723450800000000000000
+      internalID: 6067040304948095682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efcb2e8060572260800000000000000
+      internalID: 7072710115440971749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9393fbfeb9683700800000000000000
+      internalID: 520282025953039259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df61e098902f71880800000000000000
+      internalID: -8640171237318977795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1065a10e863005f0800000000000000
+      internalID: -792573550876336101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6406dba79313b44d0800000000000000
+      internalID: -3149369391473401786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf2bc4e3204199e0800000000000000
+      internalID: -1616440268342743075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bba9353a9599110800000000000000
+      internalID: 1268143328098696071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f926f03e2c67b640800000000000000
+      internalID: 5095660449038739958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc288b1eac43600800000000000000
+      internalID: 447205333828553741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7decfed2d8b36a20800000000000000
+      internalID: 3054488188111089022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8fb34e96832bb70800000000000000
+      internalID: 8913248639971490017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cb646d43718c990800000000000000
+      internalID: -7365611674863747963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa65ae2979897dd0800000000000000
+      internalID: -2487806165578847496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fdaa3167dfcfc70800000000000000
+      internalID: 9006352038412083013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c62111ef2394790800000000000000
+      internalID: -7545443633893053437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e675a27f43115040800000000000000
+      internalID: 4634506723487741664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f34bb8dca49d90800000000000000
+      internalID: -7091853466346982133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a77d3e60c609ca0800000000000000
+      internalID: -6012186725691458961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dffb7d80a23f5c0800000000000000
+      internalID: -4182953411429270238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8008955541d2c4c40800000000000000
+      internalID: 5497818810467057672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c45b6eaf3b631cb0800000000000000
+      internalID: -4894450448768215871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0412eac0e16b4bce0800000000000000
+      internalID: -1390286144772628160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71efa76259b33c60800000000000000
+      internalID: 7796779143486497148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74246ac7d6f127ac0800000000000000
+      internalID: -3858987375599926713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c51e522d8804250800000000000000
+      internalID: 5926887545779608620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acafafdfc53ddad50800000000000000
+      internalID: 6750283812849777354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da2fb6e478df5760800000000000000
+      internalID: 7448910305293183702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63b64167b7b791d0800000000000000
+      internalID: -3344002200060382354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00cf224b1afa45b0800000000000000
+      internalID: -5383215409586520051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de4e6f3597af590800000000000000
+      internalID: -7639660416349180547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0932a93803d95dc0800000000000000
+      internalID: -3649653990726944499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05765e9e411d12c0800000000000000
+      internalID: -4459389026665335538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16018e59356d4e4a0800000000000000
+      internalID: -6564886702313697183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a18d14c68423a30800000000000000
+      internalID: 4193493832833702446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8f5697773859e0800000000000000
+      internalID: -1632493878158324586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1355e923f7f4f37a0800000000000000
+      internalID: -6395305538114136783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52034bd2316f88b60800000000000000
+      internalID: 7748713721122533413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec9d257b35834e0800000000000000
+      internalID: -2001757987532058941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f94b33bd41851790800000000000000
+      internalID: -7559994228752037383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e376b35f1029c340800000000000000
+      internalID: 4884470589780554724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94022b83421d505c0800000000000000
+      internalID: -4249760719853969335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6498df93864b4aad0800000000000000
+      internalID: -2691828317518198458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4dcb3e0f6447230800000000000000
+      internalID: 3635608799621731543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92607bfd39c603cb0800000000000000
+      internalID: -4886286213327682007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a493b719dca48dc30800000000000000
+      internalID: 4384336484014700874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29951408689abf60800000000000000
+      internalID: 8050914856390727978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7089d5b762b2490800000000000000
+      internalID: -7770074420804581472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295702603e02e2920800000000000000
+      internalID: 2967345363916191122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e70bb67eead87a0800000000000000
+      internalID: -6373245588691976601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496b5ded16e15f290800000000000000
+      internalID: -7857340569178753388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a9f6e61c1fb8a30800000000000000
+      internalID: 4218731289046391309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82de111868245f00800000000000000
+      internalID: 1104552236041556621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8d16fdfa023fa0800000000000000
+      internalID: -5822579282364495129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211cca63823ed3540800000000000000
+      internalID: 4989393724051865874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc958647fcca78e0800000000000000
+      internalID: -1694816947339420494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0e897b9f80a1360800000000000000
+      internalID: 7141030027769471195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f123d1f2265ce1e0800000000000000
+      internalID: -2167262612586028558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270379a9c9a83a300800000000000000
+      internalID: 262205608530751602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec5ea42b6519100800000000000000
+      internalID: 112966789421715052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127186f7041583d00800000000000000
+      internalID: 952600658646144801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd6584e0ae91bf30800000000000000
+      internalID: 4589623909133151743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f558fe75ad155d10800000000000000
+      internalID: 2113628196757329395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0691e9ea9642e1d0800000000000000
+      internalID: -3323015943883221491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aca906b89f8d7a0800000000000000
+      internalID: -6352052897389557099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f08225cf2bc8310800000000000000
+      internalID: 1408697580239982372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32502fe6967722eb0800000000000000
+      internalID: -4746099762578455261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c08fc2089e9f6e40800000000000000
+      internalID: 5651910433092632772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e455feea496f6e0800000000000000
+      internalID: -1804091121654739391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565fa5c93adc01560800000000000000
+      internalID: 7282546700044662117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fad08e84c484ad0800000000000000
+      internalID: -2717838499103527117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70d02d2c0fe531c0800000000000000
+      internalID: -4524447415048023942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69319aeb4695520e0800000000000000
+      internalID: -2295330145845046378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bf057b047ae6570800000000000000
+      internalID: 8461884646271023971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd_waterfall_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1de1a5532c88bb0800000000000000
+      internalID: -4933479857383353870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba30e5a980ff5004b81ba8909696a9ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

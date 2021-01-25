@@ -23,7 +23,7 @@ public class EquipmentManager : MonoBehaviour
 
 
     [SerializeField] Transform weaponHandle;
-    [SerializeField] EquipmentSlot weaponSlot;
+    EquipmentSlot weaponSlot;
 
     // Callback for when an item is equipped/unequipped
     public delegate void OnWeaponChanged(Weapon newWeapon, Weapon oldWeapon);
@@ -44,7 +44,9 @@ public class EquipmentManager : MonoBehaviour
         private set { _currentWeapon = value; }
     }
 
-
+    void Start(){
+        weaponSlot = FindObjectOfType<EquipmentSlot>();
+    }
 
     public void EquipWeapon(Weapon newWeapon)
     {
@@ -63,11 +65,12 @@ public class EquipmentManager : MonoBehaviour
         weaponInstance.SetParent(weaponHandle);
         weaponInstance.localPosition = Vector3.zero;
         weaponInstance.localScale = Vector3.one;
+        weaponInstance.gameObject.layer = LayerMask.NameToLayer("Player");
         //Remove weapons pickup component
-        if (weaponInstance.GetComponent<InteractableWeapon>())
-            GameObject.Destroy(weaponInstance.GetComponent<InteractableWeapon>());
+        if (weaponInstance.GetComponent<InteractableItem>())
+            GameObject.Destroy(weaponInstance.GetComponent<InteractableItem>());
 
-
+        Inventory.Instance.RemoveItem(newWeapon);
         weaponSlot.AddItem(currentWeapon);
 
     }
@@ -111,7 +114,8 @@ public class EquipmentManager : MonoBehaviour
 
     }
 
-    public bool IsWeaponEquipped(){
+    public bool IsWeaponEquipped()
+    {
 
         return currentWeapon != null ? true : false;
     }

@@ -6,7 +6,7 @@ using System.Collections;
 public class Health : MonoBehaviour
 {
     [SerializeField] GameObject healthCanvas;
-    [SerializeField] Image healthFill;
+    public Image healthFill;
     private float _currentHealth;
 
     public float maxHealth = 100.0f;
@@ -17,16 +17,16 @@ public class Health : MonoBehaviour
         get { return _currentHealth; }
     }
 
-    [HideInInspector]
-    public UnityEvent OnHealtedChange;
+    UnityEvent OnPlayerHit = new UnityEvent();
     private void Start()
     {
-        if (OnHealtedChange == null)
-            OnHealtedChange = new UnityEvent();
-        OnHealtedChange.AddListener(UpdateHealthBarUI);
+
         _currentHealth = maxHealth;
         if (healthCanvas != null)
             healthCanvas.SetActive(false);
+            
+        if (GetComponent<CharacterController2D>())
+            OnPlayerHit.AddListener(FindObjectOfType<HUDManager>().OnPlayerHit);
     }
 
     public void UpdateHealthBarUI()
@@ -53,16 +53,20 @@ public class Health : MonoBehaviour
     }
     public void ChangeHealth(int healthAmount)
     {
-
+        if (healthAmount < 0 && OnPlayerHit != null)
+            OnPlayerHit.Invoke();
+            
         _currentHealth += healthAmount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, maxHealth);
+        UpdateHealthBarUI();
+
     }
 
     public void RestoreHealth()
     {
 
         _currentHealth = maxHealth;
-        OnHealtedChange.Invoke();
+        UpdateHealthBarUI();
 
 
 

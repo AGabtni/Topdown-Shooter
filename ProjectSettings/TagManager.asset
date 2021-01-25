@@ -20,11 +20,11 @@ TagManager:
   - NPC
   - Enemy
   - NoAttackCollision
-  - AI obstacle
+  - Tilemap
   - HighGround
   - Tower
-  - 
-  - 
+  - Minimap
+  - Obstacle
   - 
   - 
   - 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Castle floor 2
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 4526802670300682909, guid: e43fc6e553dc327489c0dece9f9eb791, type: 3}
+  m_DefaultSprite: {fileID: -6482219143914343583, guid: e43fc6e553dc327489c0dece9f9eb791, type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:

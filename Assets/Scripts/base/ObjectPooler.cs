@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+
 public class ObjectPooler : MonoBehaviour
 {
     [SerializeField] GameObject pooledObjectPrefab;
     public int pooledAmount;
     private List<GameObject> pooledInstances;
 
-    void Start()
+    void Awake()
     {
         pooledInstances = new List<GameObject>();
 

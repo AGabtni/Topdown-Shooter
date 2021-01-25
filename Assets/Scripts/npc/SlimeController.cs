@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.Events;
 using System.Collections;
-using System;
+using System.Linq;
 
 public class SlimeController : EnemyBehaviour
 {
@@ -12,8 +11,9 @@ public class SlimeController : EnemyBehaviour
     {
 
         OnDeath.AddListener(Death);
-        
-        if(enemySettings.mobType == MobType.Patroller){
+
+        if (enemySettings.mobType == MobType.Patroller)
+        {
             agent.destination = patrolPoints[0];
             agent.SearchPath();
         }
@@ -92,7 +92,9 @@ public class SlimeController : EnemyBehaviour
     {
         //This time corresponds to the duration of the explosion animation 
         yield return new WaitForSeconds(.9f);
-        GameObject rippleEffect = effectPooler.GetPooledObject();
+        GameObject rippleEffect = FindObjectsOfType<EffectPooler>()
+                    .First(pooler => pooler.effectType == EffectType.Shockwave)
+                    .GetPooledObject();
         rippleEffect.transform.position = transform.position;
         rippleEffect.SetActive(true);
         rippleEffect.GetComponent<DesactivateObject>().Desactivate(.45f);
@@ -102,14 +104,33 @@ public class SlimeController : EnemyBehaviour
         foreach (RaycastHit2D hit in explosionHits)
         {
             Health health = hit.transform.GetComponent<Health>();
-            if (health)
+            if (health && health.IsAlive())
             {
+                MaterialModifier modifier = hit.transform.root.GetComponentInChildren<MaterialModifier>();
+                if (modifier)
+                    modifier.SetTintColor(new Color(1, 0, 0, 1f));
                 health.ChangeHealth(-enemySettings.explosionDamage);
-                health.OnHealtedChange.Invoke();
             }
         }
 
+        yield return new WaitForSeconds(0.5f);
         GameManager.Instance.OnMobKilled.Invoke(EnemyType.Slime);
+
+
+        //Drop Health Potion 
+        ItemPooler itemPooler = FindObjectsOfType<ItemPooler>().ToList().First(pooler => pooler.itemType == ItemType.Health);
+        if (Random.Range(0f, 1f) > 0.5f)
+        {
+            if (itemPooler != null )
+            {
+                var healthPotion = itemPooler.GetPooledObject();
+                healthPotion.transform.position = transform.position;
+                healthPotion.SetActive(true);
+
+            }
+        }
+
+
         gameObject.SetActive(false);
 
 
@@ -127,5 +148,5 @@ public class SlimeController : EnemyBehaviour
 
     }
 
-   
+
 }

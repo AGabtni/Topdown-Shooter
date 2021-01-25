@@ -35,13 +35,13 @@ public class InventoryUI : MonoBehaviour
     public void UpdateUI()
     {
 
-        
+
         for (int i = 0; i < slots.Length; i++)
         {
             if (i < Inventory.Instance.itemsList.Count)
             {
-
-                slots[i].FillSlot(Inventory.Instance.itemsList[i]);
+                //if (!slots[i].IsSlotOccupied())
+                    slots[i].FillSlot(Inventory.Instance.itemsList[i]);
 
             }
             else

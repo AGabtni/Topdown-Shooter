@@ -21,7 +21,7 @@ public sealed class Inventory : GenericSingletonClass<Inventory>
             return false;
         }
 
-        if (itemsList.Count == 0 && !EquipmentManager.instance.IsWeaponEquipped() )
+        if (itemsList.Count == 0 && item.itemType == ItemType.Weapon && !EquipmentManager.instance.IsWeaponEquipped() )
         {
             item.Equip();
             return true;
