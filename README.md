@@ -1,4 +1,4 @@
-# UNITY 2D top down shooter
+# UNITY 2D (w/ URP)  top down shooter
 
 
 A 2D top-down pixel shooter game with pixelart assets from itch.io .
