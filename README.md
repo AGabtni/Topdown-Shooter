@@ -8,7 +8,7 @@ You can check the game live on [itch.io](https://agabtni.itch.io/pixel-shooter)
 
 ## Preview 
 
-![Preview](Recordings/Preview.gif)
+![Preview](Recordings/Preview2.gif)
 
 
 Screenshot 1               |  Screenshot 2             |  Screenshot 3
